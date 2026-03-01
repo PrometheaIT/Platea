@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/context-selector/context-selector.css"],
-  "sourcesContent": [".context-selector {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: var(--gap-sm);\r\n  padding: 0 0 var(--gap-sm) 0;\r\n  border-radius: 4px;\r\n}\r\n.context-visualizzazione {\r\n  font-size: var(--fs-mini);\r\n  color: var(--text-muted);\r\n}\r\n\r\n.tipovisualizzazione {\r\n  border: 1px solid var(--smoke-1);\r\n  border-radius: 8px;\r\n  background-color: var(--background2);\r\n  cursor: pointer;\r\n}\r\n.context-selector.text-large .context-visualizzazione,\r\n.context-selector.text-large .tipovisualizzazione {\r\n  font-size: var(--fs-md); \r\n}\r\n/* Per personalizzare ulteriormente, puoi aggiungere stili per le opzioni */\r\n.tipovisualizzazione option {\r\n  background-color: var(--background2);\r\n}"],
-  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,eAAa;AACb,OAAK,IAAI;AACT,WAAS,EAAE,EAAE,IAAI,UAAU;AAC3B,iBAAe;AACjB;AACA,CAAC;AACC,aAAW,IAAI;AACf,SAAO,IAAI;AACb;AAEA,CAAC;AACC,UAAQ,IAAI,MAAM,IAAI;AACtB,iBAAe;AACf,oBAAkB,IAAI;AACtB,UAAQ;AACV;AACA,CAlBC,gBAkBgB,CAAC,WAAW,CAX5B;AAYD,CAnBC,gBAmBgB,CADC,WACW,CAP5B;AAQC,aAAW,IAAI;AACjB;AAEA,CAXC,oBAWoB;AACnB,oBAAkB,IAAI;AACxB;",
-  "names": []
-}

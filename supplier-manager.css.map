@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/restaurant/suppliers/supplier-manager/supplier-manager.css"],
-  "sourcesContent": ["/* Supplier Management Component - CSS SPECIFICO MINIMALE */\r\n\r\n\r\n/* Tabella fornitori */\r\n.supplier-row {\r\n  transition: all 0.2s ease;\r\n}\r\n\r\n.supplier-row:hover {\r\n  background: var(--smoke-1);\r\n}\r\n\r\n"],
-  "mappings": ";AAIA,CAAC;AACC,cAAY,IAAI,KAAK;AACvB;AAEA,CAJC,YAIY;AACX,cAAY,IAAI;AAClB;",
-  "names": []
-}

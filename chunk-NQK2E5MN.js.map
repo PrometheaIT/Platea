@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/customer/orders/order-tracker/order-tracker.ts", "src/app/customer/orders/order-tracker/order-tracker.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-order-tracker',\r\n  imports: [],\r\n  templateUrl: './order-tracker.html',\r\n  styleUrl: './order-tracker.css',\r\n})\r\nexport class OrderTracker {\r\n\r\n}\r\n", "<p>order-tracker works!</p>\r\n"],
-  "mappings": ";;;;;;;;;;;;AAQM,IAAO,eAAP,MAAO,cAAY;;qCAAZ,eAAY;EAAA;yEAAZ,eAAY,WAAA,CAAA,CAAA,mBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,sBAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACRzB,MAAA,yBAAA,GAAA,GAAA;AAAG,MAAA,iBAAA,GAAA,sBAAA;AAAoB,MAAA,uBAAA;;;;;sEDQV,cAAY,CAAA;UANxB;uBACW,qBAAmB,SACpB,CAAA,GAAE,UAAA,kCAAA,CAAA;;;;6EAIA,cAAY,EAAA,WAAA,gBAAA,UAAA,0DAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

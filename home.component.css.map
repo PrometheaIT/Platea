@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/timbrature/features/home/home.component.css"],
-  "sourcesContent": ["/* Dashboard actions \u2013 wrap responsivo */\r\n.dashboard-actions {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  gap: var(--gap-md);\r\n}\r\n\r\n.dashboard-actions .promethea-button {\r\n  flex: 1 1 180px;\r\n}"],
-  "mappings": ";AACA,CAAC;AACC,WAAS;AACT,aAAW;AACX,OAAK,IAAI;AACX;AAEA,CANC,kBAMkB,CAAC;AAClB,QAAM,EAAE,EAAE;AACZ;",
-  "names": []
-}

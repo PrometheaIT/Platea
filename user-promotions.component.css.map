@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/customer/user-promotions/user-promotions.component.css"],
-  "sourcesContent": ["/* Avatar pi\u00F9 piccolo per il ristorante */\r\n.avatartondo.small {\r\n  width: calc(var(--fs-sm) * 2);\r\n  height: calc(var(--fs-sm) * 2);\r\n}\r\n\r\n.avatar-img {\r\n  width: 100%;\r\n  height: 100%;\r\n  object-fit: cover;\r\n  border-radius: 50%;\r\n}\r\n\r\n.card-footer {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  flex-wrap: wrap;\r\n  gap: var(--gap-sm);\r\n}"],
-  "mappings": ";AACA,CAAC,WAAW,CAAC;AACX,SAAO,KAAK,IAAI,SAAS,EAAE;AAC3B,UAAQ,KAAK,IAAI,SAAS,EAAE;AAC9B;AAEA,CAAC;AACC,SAAO;AACP,UAAQ;AACR,cAAY;AACZ,iBAAe;AACjB;AAEA,CAAC;AACC,WAAS;AACT,mBAAiB;AACjB,eAAa;AACb,aAAW;AACX,OAAK,IAAI;AACX;",
-  "names": []
-}

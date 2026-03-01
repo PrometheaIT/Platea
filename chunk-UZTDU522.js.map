@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/customer/search/restaurant-search/restaurant-search.ts", "src/app/customer/search/restaurant-search/restaurant-search.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-restaurant-search',\r\n  imports: [],\r\n  templateUrl: './restaurant-search.html',\r\n  styleUrl: './restaurant-search.css',\r\n})\r\nexport class RestaurantSearch {\r\n\r\n}\r\n", "<p>restaurant-search works!</p>\r\n"],
-  "mappings": ";;;;;;;;;;;;AAQM,IAAO,mBAAP,MAAO,kBAAgB;;qCAAhB,mBAAgB;EAAA;yEAAhB,mBAAgB,WAAA,CAAA,CAAA,uBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,0BAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACR7B,MAAA,yBAAA,GAAA,GAAA;AAAG,MAAA,iBAAA,GAAA,0BAAA;AAAwB,MAAA,uBAAA;;;;;sEDQd,kBAAgB,CAAA;UAN5B;uBACW,yBAAuB,SACxB,CAAA,GAAE,UAAA,sCAAA,CAAA;;;;6EAIA,kBAAgB,EAAA,WAAA,oBAAA,UAAA,kEAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/timbrature/features/buste-paga/buste-paga.component.ts", "src/app/timbrature/features/buste-paga/buste-paga.component.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-buste-paga',\r\n  imports: [],\r\n  templateUrl: './buste-paga.component.html',\r\n  styleUrl: './buste-paga.component.css'\r\n})\r\nexport class BustePagaComponent {\r\n\r\n}\r\n", "<p>buste-paga works!</p>\r\n"],
-  "mappings": ";;;;;;;;;;;;AAQM,IAAO,qBAAP,MAAO,oBAAkB;;qCAAlB,qBAAkB;EAAA;yEAAlB,qBAAkB,WAAA,CAAA,CAAA,gBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,4BAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACR/B,MAAA,yBAAA,GAAA,GAAA;AAAG,MAAA,iBAAA,GAAA,mBAAA;AAAiB,MAAA,uBAAA;;;;;sEDQP,oBAAkB,CAAA;UAN9B;uBACW,kBAAgB,SACjB,CAAA,GAAE,UAAA,+BAAA,CAAA;;;;6EAIA,oBAAkB,EAAA,WAAA,sBAAA,UAAA,kEAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

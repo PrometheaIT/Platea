@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/supplier/restaurants/supplier-restaurants/supplier-restaurants.ts", "src/app/supplier/restaurants/supplier-restaurants/supplier-restaurants.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-supplier-restaurants',\r\n  imports: [],\r\n  templateUrl: './supplier-restaurants.html',\r\n  styleUrl: './supplier-restaurants.css',\r\n})\r\nexport class SupplierRestaurants {\r\n\r\n}\r\n", "<p>supplier-restaurants works!</p>\r\n"],
-  "mappings": ";;;;;;;;;;;;AAQM,IAAO,sBAAP,MAAO,qBAAmB;;qCAAnB,sBAAmB;EAAA;yEAAnB,sBAAmB,WAAA,CAAA,CAAA,0BAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,6BAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACRhC,MAAA,yBAAA,GAAA,GAAA;AAAG,MAAA,iBAAA,GAAA,6BAAA;AAA2B,MAAA,uBAAA;;;;;sEDQjB,qBAAmB,CAAA;UAN/B;uBACW,4BAA0B,SAC3B,CAAA,GAAE,UAAA,yCAAA,CAAA;;;;6EAIA,qBAAmB,EAAA,WAAA,uBAAA,UAAA,6EAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

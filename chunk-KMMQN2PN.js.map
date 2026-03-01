@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/customer/booking/reservation-wizard/reservation-wizard.ts", "src/app/customer/booking/reservation-wizard/reservation-wizard.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-reservation-wizard',\r\n  imports: [],\r\n  templateUrl: './reservation-wizard.html',\r\n  styleUrl: './reservation-wizard.css',\r\n})\r\nexport class ReservationWizard {\r\n\r\n}\r\n", "<p>reservation-wizard works!</p>\r\n"],
-  "mappings": ";;;;;;;;;;;;AAQM,IAAO,oBAAP,MAAO,mBAAiB;;qCAAjB,oBAAiB;EAAA;yEAAjB,oBAAiB,WAAA,CAAA,CAAA,wBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,2BAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACR9B,MAAA,yBAAA,GAAA,GAAA;AAAG,MAAA,iBAAA,GAAA,2BAAA;AAAyB,MAAA,uBAAA;;;;;sEDQf,mBAAiB,CAAA;UAN7B;uBACW,0BAAwB,SACzB,CAAA,GAAE,UAAA,uCAAA,CAAA;;;;6EAIA,mBAAiB,EAAA,WAAA,qBAAA,UAAA,qEAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

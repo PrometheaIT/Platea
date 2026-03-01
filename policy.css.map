@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/auth/policy/policy.css"],
-  "sourcesContent": [".sezionepolicy {\r\n    padding: var(--gap-sm) 0 var(--gap-md) 0;\r\n}"],
-  "mappings": ";AAAA,CAAC;AACG,WAAS,IAAI,UAAU,EAAE,IAAI,UAAU;AAC3C;",
-  "names": []
-}

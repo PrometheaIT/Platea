@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/customer/reviews/review-system/review-system.ts", "src/app/customer/reviews/review-system/review-system.html"],
-  "sourcesContent": ["import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-review-system',\r\n  imports: [],\r\n  templateUrl: './review-system.html',\r\n  styleUrl: './review-system.css',\r\n})\r\nexport class ReviewSystem {\r\n\r\n}\r\n", "<p>review-system works!</p>\r\n"],
-  "mappings": ";;;;;;;;;;;;AAQM,IAAO,eAAP,MAAO,cAAY;;qCAAZ,eAAY;EAAA;yEAAZ,eAAY,WAAA,CAAA,CAAA,mBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,sBAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACRzB,MAAA,yBAAA,GAAA,GAAA;AAAG,MAAA,iBAAA,GAAA,sBAAA;AAAoB,MAAA,uBAAA;;;;;sEDQV,cAAY,CAAA;UANxB;uBACW,qBAAmB,SACpB,CAAA,GAAE,UAAA,kCAAA,CAAA;;;;6EAIA,cAAY,EAAA,WAAA,gBAAA,UAAA,2DAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/restaurant/marketing-management/marketing-management.css"],
-  "sourcesContent": ["/* ============================================================\r\n   MARKETING COMPONENT - Solo stili NON presenti in styles.css\r\n   ============================================================ */\r\n\r\n/* Progress bar utilizzi */\r\n.usage-bar {\r\n  width: 100%;\r\n  height: 6px;\r\n  background: var(--smoke-1);\r\n  border-radius: 999px;\r\n  overflow: hidden;\r\n}\r\n\r\n.usage-fill {\r\n  height: 100%;\r\n  background: var(--gradiente);\r\n  border-radius: 999px;\r\n  transition: width 0.4s ease;\r\n}\r\n\r\n.usage-danger {\r\n  background: linear-gradient(135deg, #f59e0b, var(--secondary));\r\n}\r\n\r\n/* Card promozione scaduta: visivamente attenuata */\r\n.expired-card {\r\n  opacity: 0.65;\r\n  filter: grayscale(30%);\r\n}\r\n\r\n/* Badge valore sconto in evidenza */\r\n.discount-badge {\r\n  border-radius: 12px;\r\n  min-height: 44px;\r\n}"],
-  "mappings": ";AAKA,CAAC;AACC,SAAO;AACP,UAAQ;AACR,cAAY,IAAI;AAChB,iBAAe;AACf,YAAU;AACZ;AAEA,CAAC;AACC,UAAQ;AACR,cAAY,IAAI;AAChB,iBAAe;AACf,cAAY,MAAM,KAAK;AACzB;AAEA,CAAC;AACC;AAAA,IAAY;AAAA,MAAgB,MAAM;AAAA,MAAE,OAAO;AAAA,MAAE,IAAI;AACnD;AAGA,CAAC;AACC,WAAS;AACT,UAAQ,UAAU;AACpB;AAGA,CAAC;AACC,iBAAe;AACf,cAAY;AACd;",
-  "names": []
-}

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1772385095499,
+  "timestamp": 1772390214781,
   "index": "/Platea/index.html",
   "assetGroups": [
     {
@@ -53,6 +53,7 @@
         "/Platea/chunk-EK2OJS6J.js",
         "/Platea/chunk-EL3SPYQ5.js",
         "/Platea/chunk-FK6H3RFT.js",
+        "/Platea/chunk-FN356NOP.js",
         "/Platea/chunk-FUGBALZC.js",
         "/Platea/chunk-GUYM6YDP.js",
         "/Platea/chunk-HC2RDGM6.js",
@@ -95,7 +96,6 @@
         "/Platea/chunk-PNUKYQVX.js",
         "/Platea/chunk-POJTBN2Z.js",
         "/Platea/chunk-PP75FOLU.js",
-        "/Platea/chunk-PXSGFTOG.js",
         "/Platea/chunk-Q2H5AEWK.js",
         "/Platea/chunk-QCKYHU2H.js",
         "/Platea/chunk-QQO3SG72.js",
@@ -135,7 +135,7 @@
         "/Platea/chunk-ZNYFWRYU.js",
         "/Platea/favicon.ico",
         "/Platea/index.html",
-        "/Platea/main-2CRLUEQ6.js",
+        "/Platea/main-YTXY5XJW.js",
         "/Platea/manifest.webmanifest",
         "/Platea/polyfills-B6TNHZQ6.js",
         "/Platea/styles-D2KPSRSI.css",
@@ -231,6 +231,7 @@
     "/Platea/chunk-EK2OJS6J.js": "0339eff0c1889196db0da50a2cccbf3492ef8c47",
     "/Platea/chunk-EL3SPYQ5.js": "51669d71c082081796e5dce622a294b451c9d8d6",
     "/Platea/chunk-FK6H3RFT.js": "3c538698719f1cf34410542b8c702bc484e025ee",
+    "/Platea/chunk-FN356NOP.js": "7ce1e101bcf7a94330f10265ac14dffc0981938b",
     "/Platea/chunk-FUGBALZC.js": "ebdc44f72243c39a3a4ee25c889388485cd84853",
     "/Platea/chunk-GUYM6YDP.js": "08982444a427f22bd8e3ee158cbb3f31d9ec8a77",
     "/Platea/chunk-HC2RDGM6.js": "9845f348ddb93f81b8b497c654c07e7fae1a8032",
@@ -273,7 +274,6 @@
     "/Platea/chunk-PNUKYQVX.js": "691fb94cf8166a1ee532564d6391f9bf35551ff5",
     "/Platea/chunk-POJTBN2Z.js": "36fd70388c7ec64483657de8954f679c788d1da0",
     "/Platea/chunk-PP75FOLU.js": "ff9c93d410e56176157ed80a0c6e10db7476ed31",
-    "/Platea/chunk-PXSGFTOG.js": "59b3a09540ff62dc81d1966abc06f6793cd0dfd0",
     "/Platea/chunk-Q2H5AEWK.js": "cf105e0d505c17b4e4e03fc0c258c1bfe8dce628",
     "/Platea/chunk-QCKYHU2H.js": "0c8a4cc657561aea6112338f284e944952648316",
     "/Platea/chunk-QQO3SG72.js": "b2a85914f528cb8b820b206eb47aa626f4564922",
@@ -324,15 +324,15 @@
     "/Platea/icons/icon-72x72.png": "e07029b49bb32f5f4256d685e46a78f4aa3c7a3d",
     "/Platea/icons/icon-96x96.png": "d84da239402a5d332a59aae20ba2a45b0c79e41c",
     "/Platea/img1.jpg": "6f801197487cab5f515d7fb2d1cc280a0d98bb5f",
-    "/Platea/index.html": "3197a6aebcdc26543a2046fe074e6ed9fb14fabc",
+    "/Platea/index.html": "954ed5907900c8bab46aca0cc2e25975eb170736",
     "/Platea/logo_promethea_dark.webp": "3ef99a75127c9000bb5c3b34ed825d855f7bee63",
     "/Platea/logo_promethea_light.webp": "14352d9ee933afa6e5f286e71900cdc3796f4c32",
     "/Platea/logoristoapp.png": "0546f2d0b1f39f10a2f2ef4c325b2b5230b523a5",
-    "/Platea/main-2CRLUEQ6.js": "11b9022b85aa489d47224f60e4057ef0d199a28d",
+    "/Platea/main-YTXY5XJW.js": "d08ebe29c08fbbaef7cdb6ddb7a99bb5c693392c",
     "/Platea/manifest.webmanifest": "e3fc849971dfd40eca0093e1f0f722c560cc0a44",
     "/Platea/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
     "/Platea/styles-D2KPSRSI.css": "f0fa0596944f146b8f6676cdfdfc2b488fcafec4",
-    "/Platea/sw.js": "973b0d2c5a0da69c2d8f06e04d5f1debfcf62dc5"
+    "/Platea/sw.js": "b5b10429874ee2d22819c75b647c114618e9574b"
   },
   "navigationUrls": [
     {

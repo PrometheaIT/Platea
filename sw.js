@@ -29,9 +29,9 @@ self.addEventListener('notificationclick', function(event) {
 
   event.waitUntil(
     clients.matchAll({ type: 'window', includeUncontrolled: true }).then(function(clientList) {
-      const url = conversationId
-        ? '/#/restaurant/chat-window?conversation=' + conversationId
-        : '/';
+    const url = conversationId
+      ? '/Platea/#/restaurant/chat-window?conversation=' + conversationId
+      : '/Platea/';
 
       for (const client of clientList) {
         if (client.url.includes(location.origin) && 'focus' in client) {

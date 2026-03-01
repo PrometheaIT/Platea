@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/restaurant/inventory/inventory.css"],
+  "sourcesContent": ["\r\n\r\n/* Status Colors per Chip */\r\n.chip.in-stock { \r\n  background: color-mix(in srgb, #10b981 20%, transparent); \r\n  color: #10b981; \r\n}\r\n\r\n.chip.low-stock { \r\n  background: color-mix(in srgb, #f59e0b 20%, transparent); \r\n  color: #f59e0b; \r\n}\r\n\r\n.chip.out-of-stock { \r\n  background: color-mix(in srgb, #ef4444 20%, transparent); \r\n  color: #ef4444; \r\n}\r\n\r\n\r\n/* ==================== CONTROLLI QUANTIT\u00C0 ==================== */\r\n\r\n/* Layout per i controlli quantit\u00E0 */\r\n.flex.items-center.gap-2 {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 8px;\r\n}\r\n\r\n.w-16 {\r\n  min-width: 3rem;\r\n}\r\n\r\n"],
+  "mappings": ";AAGA,CAAC,IAAI,CAAC;AACJ,cAAY,UAAU,GAAG,IAAI,EAAE,QAAQ,GAAG,EAAE;AAC5C,SAAO;AACT;AAEA,CALC,IAKI,CAAC;AACJ,cAAY,UAAU,GAAG,IAAI,EAAE,QAAQ,GAAG,EAAE;AAC5C,SAAO;AACT;AAEA,CAVC,IAUI,CAAC;AACJ,cAAY,UAAU,GAAG,IAAI,EAAE,QAAQ,GAAG,EAAE;AAC5C,SAAO;AACT;AAMA,CAAC,IAAI,CAAC,YAAY,CAAC;AACjB,WAAS;AACT,eAAa;AACb,OAAK;AACP;AAEA,CAAC;AACC,aAAW;AACb;",
+  "names": []
+}

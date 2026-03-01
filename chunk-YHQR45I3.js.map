@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/restaurant/orders/live-orders/live-orders.ts", "src/app/restaurant/orders/live-orders/live-orders.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-live-orders',\r\n  imports: [],\r\n  templateUrl: './live-orders.html',\r\n  styleUrl: './live-orders.css',\r\n})\r\nexport class LiveOrders {\r\n\r\n}\r\n", "<p>live-orders works!</p>\r\n"],
+  "mappings": ";;;;;;;;;;;;AAQM,IAAO,aAAP,MAAO,YAAU;;qCAAV,aAAU;EAAA;yEAAV,aAAU,WAAA,CAAA,CAAA,iBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,oBAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;ACRvB,MAAA,yBAAA,GAAA,GAAA;AAAG,MAAA,iBAAA,GAAA,oBAAA;AAAkB,MAAA,uBAAA;;;;;sEDQR,YAAU,CAAA;UANtB;uBACW,mBAAiB,SAClB,CAAA,GAAE,UAAA,gCAAA,CAAA;;;;6EAIA,YAAU,EAAA,WAAA,cAAA,UAAA,wDAAA,YAAA,EAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

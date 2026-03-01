@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/restaurant/menu/menu-pdf-upload/menu-pdf-upload.component.css"],
+  "sourcesContent": ["/* menu-pdf-upload.component.css */\r\n\r\n.pdf-dropzone {\r\n  border: 2px dashed color-mix(in srgb, var(--primary) 35%, transparent);\r\n  border-radius: var(--gap-sm);\r\n  padding: var(--gap-lg) var(--gap-md);\r\n  text-align: center;\r\n  cursor: pointer;\r\n  transition: border-color .18s, background .18s;\r\n  background: var(--smoke-2);\r\n}\r\n\r\n.pdf-dropzone:hover,\r\n.pdf-dropzone--over {\r\n  border-color: var(--primary);\r\n  background: color-mix(in srgb, var(--primary) 8%, transparent);\r\n}"],
+  "mappings": ";AAEA,CAAC;AACC,UAAQ,IAAI,OAAO,UAAU,GAAG,IAAI,EAAE,IAAI,WAAW,GAAG,EAAE;AAC1D,iBAAe,IAAI;AACnB,WAAS,IAAI,UAAU,IAAI;AAC3B,cAAY;AACZ,UAAQ;AACR,cAAY,aAAa,IAAI,EAAE,WAAW;AAC1C,cAAY,IAAI;AAClB;AAEA,CAVC,YAUY;AACb,CAAC;AACC,gBAAc,IAAI;AAClB,cAAY,UAAU,GAAG,IAAI,EAAE,IAAI,WAAW,EAAE,EAAE;AACpD;",
+  "names": []
+}

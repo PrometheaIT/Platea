@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;f79162eafd1d5a3b5844be02716b3b764a9de6923205bfb95b51c22771f9fc1f;E:/Dati/Documenti/PROMETHEA/ristoranteapp/src/app/shared/footer/footer.ts"],
+  "sourcesContent": ["\n    .app-footer {\n      margin-top: auto;\n      border-top: 1px solid var(--smoke-1);\n      background: var(--background);\n    }\n\n    .app-footer--compact .footer-full {\n      display: none;\n    }\n\n    .app-footer:not(.app-footer--compact) .footer-compact {\n      display: none;\n    }\n\n    @media (max-width: 768px) {\n      .footer-full .flex.flex-wrap {\n        flex-direction: column;\n      }\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,cAAY;AACZ,cAAY,IAAI,MAAM,IAAI;AAC1B,cAAY,IAAI;AAClB;AAEA,CAAC,oBAAoB,CAAC;AACpB,WAAS;AACX;AAEA,CAVC,UAUU,KAAK,CAJf,qBAIqC,CAAC;AACrC,WAAS;AACX;AAEA,OAAO,CAAC,SAAS,EAAE;AACjB,GAToB,YASP,CAAC,IAAI,CAAC;AACjB,oBAAgB;AAClB;AACF;",
+  "names": []
+}

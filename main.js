@@ -1,29 +1,29 @@
 import {
-  ChatService
-} from "./chunk-RSMMDC55.js";
-import {
   SupplierAuthService
-} from "./chunk-7YKYTJOF.js";
+} from "./chunk-JIPGK6YB.js";
+import {
+  ChatService
+} from "./chunk-36OX54UV.js";
 import {
   Loader as Loader2
-} from "./chunk-XXXO6WIZ.js";
+} from "./chunk-635BUGKR.js";
 import {
   TutorialService
-} from "./chunk-M5GH7LWB.js";
+} from "./chunk-DUZGO5NE.js";
 import {
   TaskService
-} from "./chunk-XK53QFW7.js";
+} from "./chunk-LJEGTELM.js";
 import {
   ThemeService
-} from "./chunk-JRBCG4KI.js";
+} from "./chunk-U5WEYFE6.js";
 import {
   Header
-} from "./chunk-MA2TXP7X.js";
+} from "./chunk-A6VYZISK.js";
 import {
   BreakpointObserver,
   Breakpoints
-} from "./chunk-GDDP4N6S.js";
-import "./chunk-7LIWV55S.js";
+} from "./chunk-RMKOUF2K.js";
+import "./chunk-TZX4E46J.js";
 import {
   FormsModule,
   NgControlStatus,
@@ -31,11 +31,11 @@ import {
   NgSelectOption,
   SelectControlValueAccessor,
   ɵNgSelectMultipleOption
-} from "./chunk-4SOHWVCI.js";
-import "./chunk-QSRXFII6.js";
+} from "./chunk-CQ6KSR3R.js";
+import "./chunk-K4QVN3EH.js";
 import {
   LoadingService
-} from "./chunk-XTSNHNKL.js";
+} from "./chunk-XWVRHBBC.js";
 import {
   Armchair,
   ArrowLeft,
@@ -49,8 +49,11 @@ import {
   Briefcase,
   Building,
   Building2,
+  Cake,
   Calculator,
   Calendar,
+  CalendarArrowDown,
+  CalendarArrowUp,
   CalendarCheck,
   CalendarClock,
   CalendarDays,
@@ -67,6 +70,7 @@ import {
   ChevronDown,
   ChevronLeft,
   ChevronRight,
+  ChevronUp,
   Circle,
   CircleAlert,
   CircleCheck,
@@ -79,6 +83,7 @@ import {
   ClipboardCheck,
   ClipboardList,
   Clock,
+  ClockPlus,
   Coins,
   Compass,
   Copy,
@@ -92,25 +97,32 @@ import {
   Eye,
   EyeOff,
   FileCheck,
+  FileDown,
   FileText,
+  FingerprintPattern,
   Fish,
   Flag,
   Flower,
+  Funnel,
   Gauge,
   Gift,
   GlassWater,
   Globe,
   GripVertical,
+  HardHat,
   Heart,
   History,
   House,
+  IdCard,
   Image,
   ImagePlus,
+  Inbox,
   Infinity,
   Info,
   Landmark,
   Layers,
   LayoutDashboard,
+  LayoutList,
   Leaf,
   Link,
   List,
@@ -118,11 +130,13 @@ import {
   ListX,
   Loader,
   Lock,
+  LockKeyhole,
   LogIn,
   LogOut,
   LucideAngularComponent,
   LucideAngularModule,
   Mail,
+  Map,
   MapPin,
   Megaphone,
   Menu,
@@ -142,8 +156,10 @@ import {
   Percent,
   Phone,
   PiggyBank,
+  Play,
   Plus,
   Proportions,
+  Receipt,
   RefreshCw,
   Rocket,
   RotateCcw,
@@ -153,10 +169,14 @@ import {
   Search,
   SendHorizontal,
   Settings,
+  Settings2,
   Shell,
+  Shield,
   ShieldCheck,
   ShoppingBag,
   ShoppingCart,
+  SlidersHorizontal,
+  SlidersVertical,
   Smartphone,
   Sparkles,
   Sprout,
@@ -169,6 +189,7 @@ import {
   Target,
   TicketPercent,
   Timer,
+  ToggleRight,
   Trash2,
   TrendingUp,
   TriangleAlert,
@@ -176,6 +197,8 @@ import {
   Type,
   Upload,
   User,
+  UserPlus,
+  UserX,
   Users,
   UsersRound,
   Utensils,
@@ -185,11 +208,11 @@ import {
   Wine,
   X,
   Zap
-} from "./chunk-YWAAZKTM.js";
+} from "./chunk-LBEXX5NO.js";
 import {
   AuthService,
   PermissionService
-} from "./chunk-77JDNC7M.js";
+} from "./chunk-JWP3QZ4U.js";
 import {
   ActivatedRoute,
   NavigationEnd,
@@ -201,16 +224,16 @@ import {
   bootstrapApplication,
   provideRouter,
   withHashLocation
-} from "./chunk-BBE7KKQ3.js";
+} from "./chunk-RFPONECI.js";
 import {
   provideHttpClient
-} from "./chunk-NI22Y6EC.js";
+} from "./chunk-3OF4XXND.js";
 import {
   AsyncPipe,
   CommonModule,
   NgForOf,
   NgIf
-} from "./chunk-YGNU4RXP.js";
+} from "./chunk-6GUAOFJT.js";
 import {
   ApplicationRef,
   ChangeDetectionStrategy,
@@ -284,7 +307,7 @@ import {
   ɵɵtwoWayBindingSet,
   ɵɵtwoWayListener,
   ɵɵtwoWayProperty
-} from "./chunk-T3MDKIO5.js";
+} from "./chunk-PF73AKAP.js";
 import {
   __async,
   __spreadValues
@@ -970,16 +993,16 @@ var routes = [
   // ── PUBBLICHE ──────────────────────────────────────────────────
   {
     path: "login",
-    loadComponent: () => import("./chunk-6HY6XFFK.js").then((m) => m.Login)
+    loadComponent: () => import("./chunk-GXMGDXQF.js").then((m) => m.Login)
   },
   {
     path: "policy",
-    loadComponent: () => import("./chunk-F5ZMFON7.js").then((m) => m.Policy),
+    loadComponent: () => import("./chunk-MOBQSAUO.js").then((m) => m.Policy),
     data: { title: "Privacy Policy", icon: "file-text" }
   },
   {
     path: "features",
-    loadComponent: () => import("./chunk-X46ZVA5U.js").then((m) => m.Features),
+    loadComponent: () => import("./chunk-RQ7PSHCK.js").then((m) => m.Features),
     data: { hideGlobalHeader: true }
   },
   {
@@ -987,12 +1010,12 @@ var routes = [
     children: [
       {
         path: "",
-        loadComponent: () => import("./chunk-HIU6DCQ6.js").then((m) => m.Register),
+        loadComponent: () => import("./chunk-X44LTLIS.js").then((m) => m.Register),
         data: { hideGlobalHeader: true }
       },
       {
         path: ":role",
-        loadComponent: () => import("./chunk-HIU6DCQ6.js").then((m) => m.Register),
+        loadComponent: () => import("./chunk-X44LTLIS.js").then((m) => m.Register),
         data: { hideGlobalHeader: true }
       }
     ]
@@ -1000,12 +1023,12 @@ var routes = [
   // ── PUBBLICHE CUSTOMER (senza auth) ───────────────────────────
   {
     path: "customer/restaurant/restaurant-list",
-    loadComponent: () => import("./chunk-J6UO7MYR.js").then((m) => m.RestaurantList),
+    loadComponent: () => import("./chunk-ZU5A7J4J.js").then((m) => m.RestaurantList),
     data: { title: "Cerca Ristoranti", icon: "utensils" }
   },
   {
     path: "customer/restaurant/:restaurantId/map",
-    loadComponent: () => import("./chunk-GDCEX2PZ.js").then((m) => m.RestaurantMapViewer),
+    loadComponent: () => import("./chunk-76ELQWRM.js").then((m) => m.RestaurantMapViewer),
     data: { hideGlobalHeader: true }
   },
   // ── RISTORANTE ─────────────────────────────────────────────────
@@ -1015,176 +1038,252 @@ var routes = [
     children: [
       {
         path: "dashboard",
-        loadComponent: () => import("./chunk-DBF4IRAR.js").then((m) => m.Dashboard),
+        loadComponent: () => import("./chunk-L7QZJHN4.js").then((m) => m.Dashboard),
         canActivate: [RoleGuard],
         data: { permissions: ["view_dashboard"], title: "Dashboard", icon: "layout-dashboard" }
       },
       {
         path: "menu",
-        loadComponent: () => import("./chunk-JYL4G2VT.js").then((m) => m.MenuBuilder),
+        loadComponent: () => import("./chunk-WWK4SVTH.js").then((m) => m.MenuBuilder),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Men\xF9 & Piatti", icon: "utensils" }
       },
       {
         path: "menu-pdf-upload",
-        loadComponent: () => import("./chunk-TLTQITVW.js").then((m) => m.MenuPdfUploadComponent),
+        loadComponent: () => import("./chunk-ZGYCNGRQ.js").then((m) => m.MenuPdfUploadComponent),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Men\xF9 PDF Upload", icon: "file-upload" }
       },
       {
         path: "menu-pdf-zone-editor",
-        loadComponent: () => import("./chunk-RBO2QH2T.js").then((m) => m.MenuPdfZoneEditorComponent),
+        loadComponent: () => import("./chunk-2N5ZEIOL.js").then((m) => m.MenuPdfZoneEditorComponent),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Men\xF9 PDF Editor", icon: "file-upload" }
       },
       {
         path: "alcoholic-beverages",
-        loadComponent: () => import("./chunk-U4XS5DFB.js").then((m) => m.AlcoholicBeverages),
+        loadComponent: () => import("./chunk-ZXLUSRMW.js").then((m) => m.AlcoholicBeverages),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Bevande", icon: "glass-water" }
       },
       {
         path: "orders",
-        loadComponent: () => import("./chunk-YHQR45I3.js").then((m) => m.LiveOrders),
+        loadComponent: () => import("./chunk-35Z676JG.js").then((m) => m.LiveOrders),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_orders"], title: "Ordini", icon: "shopping-cart" }
       },
       {
         path: "kitchen-display",
-        loadComponent: () => import("./chunk-4IHLFPUO.js").then((m) => m.KitchenDisplay),
+        loadComponent: () => import("./chunk-G7MXSTDZ.js").then((m) => m.KitchenDisplay),
         canActivate: [RoleGuard],
         data: { permissions: ["view_kitchen_display"], title: "Pannello Cucina", icon: "chef-hat" }
       },
       {
         path: "recipe",
-        loadComponent: () => import("./chunk-CIL3FMJ7.js").then((m) => m.Recipe),
+        loadComponent: () => import("./chunk-GQVQIZSF.js").then((m) => m.Recipe),
         canActivate: [RoleGuard],
         data: { permissions: ["view_ingredients"], title: "Ricette", icon: "scroll-text" }
       },
       {
         path: "expense-management",
-        loadComponent: () => import("./chunk-MAHGF4IX.js").then((m) => m.ExpenseManagement),
+        loadComponent: () => import("./chunk-7FG35I7K.js").then((m) => m.ExpenseManagement),
         canActivate: [RoleGuard],
         data: { permissions: ["view_reports"], title: "Gestione Spese", icon: "credit-card" }
       },
       {
         path: "financial-report",
-        loadComponent: () => import("./chunk-XWMH5PSR.js").then((m) => m.FinancialReport),
+        loadComponent: () => import("./chunk-BDA4E6NW.js").then((m) => m.FinancialReport),
         canActivate: [RoleGuard],
         data: { permissions: ["view_reports"], title: "Report Finanziario", icon: "bar-chart-3" }
       },
       {
         path: "reservation-manager",
-        loadComponent: () => import("./chunk-PAR5XBP5.js").then((m) => m.ReservationManager),
+        loadComponent: () => import("./chunk-CEVV6WKB.js").then((m) => m.ReservationManager),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_reservations"], title: "Lista Prenotazioni", icon: "notebook-text" }
       },
       {
         path: "table-map",
-        loadComponent: () => import("./chunk-2X7TSM4N.js").then((m) => m.TableMap),
+        loadComponent: () => import("./chunk-ODI6IVL5.js").then((m) => m.TableMap),
         canActivate: [RoleGuard],
         data: { permissions: ["take_orders"], title: "Ordini", icon: "utensils-crossed" }
       },
       {
         path: "floor-plan",
-        loadComponent: () => import("./chunk-KRSVCX4V.js").then((m) => m.FloorPlanEditor),
+        loadComponent: () => import("./chunk-5L5QXPF6.js").then((m) => m.FloorPlanEditor),
         canActivate: [RoleGuard],
         data: { permissions: ["view_table_map"], title: "Mappa Ristorante", icon: "table-2" }
       },
       {
         path: "calendar-view",
-        loadComponent: () => import("./chunk-OKAIUHFY.js").then((m) => m.RestaurantCalendar),
+        loadComponent: () => import("./chunk-LFYMA6GF.js").then((m) => m.RestaurantCalendar),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_reservations", "view_calendar_readonly"], title: "Calendario", icon: "calendar" }
       },
       {
         path: "inventory",
-        loadComponent: () => import("./chunk-GBHT5GT5.js").then((m) => m.Inventory),
+        loadComponent: () => import("./chunk-AAAW6ART.js").then((m) => m.Inventory),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_inventory"], title: "Inventario", icon: "package" }
       },
       {
         path: "ingredient-search",
-        loadComponent: () => import("./chunk-OHJLBU3Z.js").then((m) => m.IngredientSearch),
+        loadComponent: () => import("./chunk-4XUVASQR.js").then((m) => m.IngredientSearch),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_inventory"], title: "Ricerca Ingredienti", icon: "package-search" }
       },
       {
         path: "suppliers",
-        loadComponent: () => import("./chunk-OTNSUEJQ.js").then((m) => m.SupplierManager),
+        loadComponent: () => import("./chunk-3RSXRGUR.js").then((m) => m.SupplierManager),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_inventory"], title: "Fornitori", icon: "truck" }
       },
       {
         path: "tables",
-        loadComponent: () => import("./chunk-JPROWKHT.js").then((m) => m.TablemapView),
+        loadComponent: () => import("./chunk-L4F5DOIS.js").then((m) => m.TablemapView),
         canActivate: [RoleGuard],
         data: { permissions: ["take_orders"], title: "Tavoli", icon: "table-2" }
       },
       {
         path: "task-list",
-        loadComponent: () => import("./chunk-72MF4AVI.js").then((m) => m.TaskListComponent),
+        loadComponent: () => import("./chunk-X4M7XPMU.js").then((m) => m.TaskListComponent),
         canActivate: [RoleGuard],
         data: { title: "Task", icon: "clipboard-list" }
       },
       {
         path: "task-detail/:id",
-        loadComponent: () => import("./chunk-HTFEIKVB.js").then((m) => m.TaskDetailComponent),
+        loadComponent: () => import("./chunk-QLTH2DN7.js").then((m) => m.TaskDetailComponent),
         canActivate: [RoleGuard],
         data: { title: "Dettaglio Task", icon: "clipboard-list" }
       },
       {
         path: "staff-management",
-        loadComponent: () => import("./chunk-ZGM3TXY5.js").then((m) => m.StaffManagement),
+        loadComponent: () => import("./chunk-DMJJESET.js").then((m) => m.StaffManagement),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff"], title: "Staff", icon: "users" }
       },
       {
         path: "marketing-management",
-        loadComponent: () => import("./chunk-4XTSE6NE.js").then((m) => m.MarketingManagement),
+        loadComponent: () => import("./chunk-7SC6W675.js").then((m) => m.MarketingManagement),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff", "manage_marketing"], title: "Gestione Marketing", icon: "megaphone" }
       },
       {
         path: "web-site",
-        loadComponent: () => import("./chunk-F5S4FGPN.js").then((m) => m.WebSite),
+        loadComponent: () => import("./chunk-S5TZ5TOP.js").then((m) => m.WebSite),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff"], title: "Crea il tuo sito web", icon: "globe" }
       },
       {
         path: "marketing",
-        loadComponent: () => import("./chunk-GEFJX6KJ.js").then((m) => m.Marketing),
+        loadComponent: () => import("./chunk-RU7VH2YC.js").then((m) => m.Marketing),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff"], title: "Promuovi il ristorante", icon: "trending-up" }
       },
       {
         path: "contabile-fiscale",
-        loadComponent: () => import("./chunk-D6M43OVZ.js").then((m) => m.ContabileFiscale),
+        loadComponent: () => import("./chunk-QAR3FHZL.js").then((m) => m.ContabileFiscale),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff"], title: "Gestione Fiscale", icon: "landmark" }
       },
       {
         path: "profile",
-        loadComponent: () => import("./chunk-CC22WUGV.js").then((m) => m.Profile),
+        loadComponent: () => import("./chunk-6HDAQZUG.js").then((m) => m.Profile),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff", "view_profile"], title: "Profilo", icon: "user" }
       },
       {
         path: "settings",
-        loadComponent: () => import("./chunk-OC5FS3UN.js").then((m) => m.RestaurantSettings),
+        loadComponent: () => import("./chunk-O2RZ4FPL.js").then((m) => m.RestaurantSettings),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_restaurant_settings", "manage_dish_photos"], title: "Impostazioni", icon: "settings" }
       },
       {
         path: "chat-window",
-        loadComponent: () => import("./chunk-VFWRCGJH.js").then((m) => m.ChatWindow),
+        loadComponent: () => import("./chunk-LMQJ52BK.js").then((m) => m.ChatWindow),
         canActivate: [RoleGuard],
         data: { title: "Chat", icon: "messages-square" }
       },
       {
         path: "no-permission",
-        loadComponent: () => import("./chunk-ZFU5FP7A.js").then((m) => m.NoPermission),
+        loadComponent: () => import("./chunk-EARGNLCL.js").then((m) => m.NoPermission),
         data: { title: "Accesso Negato", icon: "shield-alert" }
+      },
+      {
+        path: "timbrature",
+        children: [
+          {
+            path: "home",
+            loadComponent: () => import("./chunk-U4B4PL55.js").then((m) => m.HomeComponent),
+            data: { title: "Timbrature", icon: "clock" }
+          },
+          {
+            path: "lista",
+            loadComponent: () => import("./chunk-A6G6W476.js").then((m) => m.ListaTimbratureComponent),
+            data: { title: "Lista Timbrature", icon: "clock" }
+          },
+          {
+            path: "crea",
+            loadComponent: () => import("./chunk-NOX3PGMJ.js").then((m) => m.CreaTimbraturaComponent),
+            data: { title: "Nuova Timbratura", icon: "plus-circle" }
+          },
+          {
+            path: "crea/:id",
+            loadComponent: () => import("./chunk-NOX3PGMJ.js").then((m) => m.CreaTimbraturaComponent),
+            data: { title: "Modifica Timbratura", icon: "pencil" }
+          },
+          {
+            path: "calendario",
+            loadComponent: () => import("./chunk-QRABHOUV.js").then((m) => m.CalendarioComponent),
+            data: { title: "Calendario", icon: "calendar" }
+          },
+          {
+            path: "dipendenti",
+            loadComponent: () => import("./chunk-5ATNNMMB.js").then((m) => m.ListaDipendentiComponent),
+            data: { title: "Dipendenti", icon: "users" }
+          },
+          {
+            path: "dipendenti/:id",
+            loadComponent: () => import("./chunk-GM24MCII.js").then((m) => m.DipendenteDettaglioComponent),
+            data: { title: "Dettaglio Dipendente", icon: "user" }
+          },
+          {
+            path: "inviti",
+            loadComponent: () => import("./chunk-SJVX2LDK.js").then((m) => m.InvitiDipendentiComponent),
+            data: { title: "Inviti Dipendenti", icon: "mail" }
+          },
+          {
+            path: "buste-paga",
+            loadComponent: () => import("./chunk-7XYY54TZ.js").then((m) => m.BustePagaComponent),
+            data: { title: "Buste Paga", icon: "file-text" }
+          },
+          {
+            path: "report",
+            loadComponent: () => import("./chunk-I6ATDPW5.js").then((m) => m.ReportComponent),
+            data: { title: "Report", icon: "bar-chart-3" }
+          },
+          {
+            path: "turni",
+            loadComponent: () => import("./chunk-O7UKNHK4.js").then((m) => m.ShiftManagementComponent),
+            data: { title: "Gestione Turni", icon: "clipboard-list" }
+          },
+          {
+            path: "kpi",
+            loadComponent: () => import("./chunk-5WESRJYV.js").then((m) => m.KpiComponent),
+            data: { title: "KPI", icon: "activity" }
+          },
+          {
+            path: "profilo",
+            loadComponent: () => import("./chunk-3SSLXYZY.js").then((m) => m.ProfiloAziendaleComponent),
+            data: { title: "Profilo Aziendale", icon: "building" }
+          },
+          {
+            path: "impostazioni",
+            loadComponent: () => import("./chunk-CQDFISEY.js").then((m) => m.ImpostazioniComponent),
+            data: { title: "Impostazioni Timbrature", icon: "settings" }
+          },
+          { path: "", redirectTo: "home", pathMatch: "full" }
+        ]
       },
       { path: "", redirectTo: "dashboard", pathMatch: "full" }
     ]
@@ -1197,27 +1296,27 @@ var routes = [
     children: [
       {
         path: "dashboard",
-        loadComponent: () => import("./chunk-2QR4FPLF.js").then((m) => m.SupplierDashboard),
+        loadComponent: () => import("./chunk-N4W6UNBH.js").then((m) => m.SupplierDashboard),
         data: { title: "Dashboard", icon: "layout-dashboard" }
       },
       {
         path: "settings",
-        loadComponent: () => import("./chunk-KJFIVA3E.js").then((m) => m.SupplierSettings),
+        loadComponent: () => import("./chunk-MBXBC52Q.js").then((m) => m.SupplierSettings),
         data: { title: "Impostazioni Fornitore", icon: "settings" }
       },
       {
         path: "restaurants",
-        loadComponent: () => import("./chunk-7L6YNDEO.js").then((m) => m.SupplierRestaurants),
+        loadComponent: () => import("./chunk-O2IOBRC4.js").then((m) => m.SupplierRestaurants),
         data: { title: "Cerca Ristoranti", icon: "store" }
       },
       {
         path: "products",
-        loadComponent: () => import("./chunk-RMYV3HQT.js").then((m) => m.SupplierIngredients),
+        loadComponent: () => import("./chunk-L4WTEDMF.js").then((m) => m.SupplierIngredients),
         data: { title: "Catalogo Prodotti", icon: "package-search" }
       },
       {
         path: "ingredients",
-        loadComponent: () => import("./chunk-RMYV3HQT.js").then((m) => m.SupplierIngredients),
+        loadComponent: () => import("./chunk-L4WTEDMF.js").then((m) => m.SupplierIngredients),
         data: { title: "Ingredienti", icon: "package" }
       },
       { path: "", redirectTo: "dashboard", pathMatch: "full" }
@@ -1231,57 +1330,57 @@ var routes = [
     children: [
       {
         path: "home",
-        loadComponent: () => import("./chunk-ORJ4KRMM.js").then((m) => m.Home),
+        loadComponent: () => import("./chunk-UNXEBTA2.js").then((m) => m.Home),
         data: { title: "Home", icon: "home" }
       },
       {
         path: "search",
-        loadComponent: () => import("./chunk-B3FHVAKP.js").then((m) => m.RestaurantSearch),
+        loadComponent: () => import("./chunk-UZTDU522.js").then((m) => m.RestaurantSearch),
         data: { title: "Cerca Ristoranti", icon: "search" }
       },
       {
         path: "menu-display",
-        loadComponent: () => import("./chunk-3OIR2HL6.js").then((m) => m.MenuDisplay),
+        loadComponent: () => import("./chunk-IJHETVEF.js").then((m) => m.MenuDisplay),
         data: { hideGlobalHeader: true }
       },
       {
         path: "menu/:id",
-        loadComponent: () => import("./chunk-3OIR2HL6.js").then((m) => m.MenuDisplay),
+        loadComponent: () => import("./chunk-IJHETVEF.js").then((m) => m.MenuDisplay),
         data: { hideGlobalHeader: true }
       },
       {
         path: "restaurant/:restaurantId/reservation",
-        loadComponent: () => import("./chunk-C27PZFBR.js").then((m) => m.ReservationWizard),
+        loadComponent: () => import("./chunk-KMMQN2PN.js").then((m) => m.ReservationWizard),
         data: { title: "Prenotazione Tavolo", icon: "calendar-check" }
       },
       {
         path: "restaurant/:id",
-        loadComponent: () => import("./chunk-BW5YVFMG.js").then((m) => m.RestaurantDetail),
+        loadComponent: () => import("./chunk-UKQLKN5D.js").then((m) => m.RestaurantDetail),
         data: { hideGlobalHeader: true }
       },
       {
         path: "orders",
-        loadComponent: () => import("./chunk-GVIRTGVN.js").then((m) => m.OrderTracker),
+        loadComponent: () => import("./chunk-NQK2E5MN.js").then((m) => m.OrderTracker),
         data: { title: "I miei Ordini", icon: "shopping-bag" }
       },
       {
         path: "reviews",
-        loadComponent: () => import("./chunk-6W54U344.js").then((m) => m.ReviewSystem),
+        loadComponent: () => import("./chunk-WSF4VFIX.js").then((m) => m.ReviewSystem),
         data: { title: "Le mie Recensioni", icon: "star" }
       },
       {
         path: "user-promotions",
-        loadComponent: () => import("./chunk-BYSJSRNO.js").then((m) => m.UserPromotionsComponent),
+        loadComponent: () => import("./chunk-PCY3TVN6.js").then((m) => m.UserPromotionsComponent),
         data: { title: "Le mie Promozioni", icon: "tag" }
       },
       {
         path: "settings",
-        loadComponent: () => import("./chunk-EHWQWGPK.js").then((m) => m.SettingsCustomer),
+        loadComponent: () => import("./chunk-2PU7FHDF.js").then((m) => m.SettingsCustomer),
         data: { title: "Impostazioni", icon: "settings" }
       },
       {
         path: "profile-user",
-        loadComponent: () => import("./chunk-KSEBJKOK.js").then((m) => m.ProfileUser),
+        loadComponent: () => import("./chunk-IV5TMQAU.js").then((m) => m.ProfileUser),
         data: { title: "Account", icon: "user" }
       },
       { path: "", redirectTo: "home", pathMatch: "full" }
@@ -1290,19 +1389,19 @@ var routes = [
   // ── FOOD COST ──────────────────────────────────────────────────
   {
     path: "food-cost",
-    loadComponent: () => import("./chunk-ESW7LN6C.js").then((m) => m.FoodCostCalculator),
+    loadComponent: () => import("./chunk-4KZZZH57.js").then((m) => m.FoodCostCalculator),
     canActivate: [AuthGuard, StaffGuard],
     data: { permissions: ["view_ingredients"], title: "Food Cost", icon: "piggy-bank" }
   },
   {
     path: "food-cost-calculator/:id",
-    loadComponent: () => import("./chunk-ESW7LN6C.js").then((m) => m.FoodCostCalculator),
+    loadComponent: () => import("./chunk-4KZZZH57.js").then((m) => m.FoodCostCalculator),
     canActivate: [AuthGuard, StaffGuard],
     data: { permissions: ["view_ingredients"], title: "Modifica Piatto", icon: "piggy-bank" }
   },
   {
     path: "food-cost/ingredient/new",
-    loadComponent: () => import("./chunk-ESW7LN6C.js").then((m) => m.FoodCostCalculator),
+    loadComponent: () => import("./chunk-4KZZZH57.js").then((m) => m.FoodCostCalculator),
     canActivate: [AuthGuard, StaffGuard],
     data: { permissions: ["view_ingredients"], title: "Crea Ingrediente", icon: "package-plus" }
   },
@@ -1498,7 +1597,30 @@ var LUCIDE_ICONS = {
   Gauge,
   Proportions,
   // ── Food Cost & Calculations ─────────────────────────────────────────────────
-  Calculator
+  Calculator,
+  CalendarArrowDown,
+  Play,
+  FileDown,
+  SlidersHorizontal,
+  LayoutList,
+  ClockPlus,
+  Shield,
+  UserPlus,
+  CalendarArrowUp,
+  UserX,
+  IdCard,
+  Cake,
+  Fingerprint: FingerprintPattern,
+  HardHat,
+  ToggleRight,
+  LockKeyhole,
+  ChevronUp,
+  Settings2,
+  Map,
+  Sliders: SlidersVertical,
+  Receipt,
+  Filter: Funnel,
+  Inbox
 };
 
 // src/app/app.config.ts
@@ -3151,7 +3273,7 @@ function App_aside_1_ng_container_9_div_13_Template(rf, ctx) {
 function App_aside_1_ng_container_9_div_14_div_1_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "div", 40);
-    \u0275\u0275text(1, "Promethea");
+    \u0275\u0275text(1, "Timbrature");
     \u0275\u0275elementEnd();
   }
 }
@@ -3160,22 +3282,176 @@ function App_aside_1_ng_container_9_div_14_div_2_Template(rf, ctx) {
     \u0275\u0275element(0, "div", 41);
   }
 }
+function App_aside_1_ng_container_9_div_14_li_4_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 77);
+    \u0275\u0275element(2, "lucide-angular", 78);
+    \u0275\u0275elementStart(3, "span", 22);
+    \u0275\u0275text(4, "Timbrature");
+    \u0275\u0275elementEnd()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(4);
+    \u0275\u0275advance();
+    \u0275\u0275attribute("title", ctx_r1.isSidebarCollapsed ? "Timbrature" : null);
+    \u0275\u0275advance();
+    \u0275\u0275property("size", ctx_r1.iconSize);
+  }
+}
+function App_aside_1_ng_container_9_div_14_li_5_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 79);
+    \u0275\u0275element(2, "lucide-angular", 80);
+    \u0275\u0275elementStart(3, "span", 22);
+    \u0275\u0275text(4, "Nuova Timbratura");
+    \u0275\u0275elementEnd()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(4);
+    \u0275\u0275advance();
+    \u0275\u0275attribute("title", ctx_r1.isSidebarCollapsed ? "Nuova Timbratura" : null);
+    \u0275\u0275advance();
+    \u0275\u0275property("size", ctx_r1.iconSize);
+  }
+}
+function App_aside_1_ng_container_9_div_14_li_6_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 81);
+    \u0275\u0275element(2, "lucide-angular", 49);
+    \u0275\u0275elementStart(3, "span", 22);
+    \u0275\u0275text(4, "Dipendenti");
+    \u0275\u0275elementEnd()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(4);
+    \u0275\u0275advance();
+    \u0275\u0275attribute("title", ctx_r1.isSidebarCollapsed ? "Dipendenti" : null);
+    \u0275\u0275advance();
+    \u0275\u0275property("size", ctx_r1.iconSize);
+  }
+}
+function App_aside_1_ng_container_9_div_14_li_7_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 82);
+    \u0275\u0275element(2, "lucide-angular", 51);
+    \u0275\u0275elementStart(3, "span", 22);
+    \u0275\u0275text(4, "Gestione Turni");
+    \u0275\u0275elementEnd()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(4);
+    \u0275\u0275advance();
+    \u0275\u0275attribute("title", ctx_r1.isSidebarCollapsed ? "Turni" : null);
+    \u0275\u0275advance();
+    \u0275\u0275property("size", ctx_r1.iconSize);
+  }
+}
+function App_aside_1_ng_container_9_div_14_li_8_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "li", 83)(1, "a", 84);
+    \u0275\u0275element(2, "lucide-angular", 85);
+    \u0275\u0275elementStart(3, "span", 22);
+    \u0275\u0275text(4, "Calendario");
+    \u0275\u0275elementEnd()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(4);
+    \u0275\u0275advance();
+    \u0275\u0275attribute("title", ctx_r1.isSidebarCollapsed ? "Calendario" : null);
+    \u0275\u0275advance();
+    \u0275\u0275property("size", ctx_r1.iconSize);
+  }
+}
+function App_aside_1_ng_container_9_div_14_li_9_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 86);
+    \u0275\u0275element(2, "lucide-angular", 75);
+    \u0275\u0275elementStart(3, "span", 22);
+    \u0275\u0275text(4, "Report");
+    \u0275\u0275elementEnd()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(4);
+    \u0275\u0275advance();
+    \u0275\u0275attribute("title", ctx_r1.isSidebarCollapsed ? "Report" : null);
+    \u0275\u0275advance();
+    \u0275\u0275property("size", ctx_r1.iconSize);
+  }
+}
+function App_aside_1_ng_container_9_div_14_li_10_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 87);
+    \u0275\u0275element(2, "lucide-angular", 88);
+    \u0275\u0275elementStart(3, "span", 22);
+    \u0275\u0275text(4, "Impostazioni");
+    \u0275\u0275elementEnd()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(4);
+    \u0275\u0275advance();
+    \u0275\u0275attribute("title", ctx_r1.isSidebarCollapsed ? "Impostazioni Timbrature" : null);
+    \u0275\u0275advance();
+    \u0275\u0275property("size", ctx_r1.iconSize);
+  }
+}
 function App_aside_1_ng_container_9_div_14_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "div", 14);
     \u0275\u0275template(1, App_aside_1_ng_container_9_div_14_div_1_Template, 2, 0, "div", 15)(2, App_aside_1_ng_container_9_div_14_div_2_Template, 1, 0, "div", 16);
-    \u0275\u0275elementStart(3, "ul", 17)(4, "li", 19)(5, "a", 76);
-    \u0275\u0275element(6, "lucide-angular", 77);
+    \u0275\u0275elementStart(3, "ul", 17);
+    \u0275\u0275template(4, App_aside_1_ng_container_9_div_14_li_4_Template, 5, 2, "li", 18)(5, App_aside_1_ng_container_9_div_14_li_5_Template, 5, 2, "li", 18)(6, App_aside_1_ng_container_9_div_14_li_6_Template, 5, 2, "li", 18)(7, App_aside_1_ng_container_9_div_14_li_7_Template, 5, 2, "li", 18)(8, App_aside_1_ng_container_9_div_14_li_8_Template, 5, 2, "li", 76)(9, App_aside_1_ng_container_9_div_14_li_9_Template, 5, 2, "li", 18)(10, App_aside_1_ng_container_9_div_14_li_10_Template, 5, 2, "li", 18);
+    \u0275\u0275elementEnd()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = \u0275\u0275nextContext(3);
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", !ctx_r1.isSidebarCollapsed);
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.isSidebarCollapsed);
+    \u0275\u0275advance(2);
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("view_timbrature") || ctx_r1.authService.hasPermission("manage_timbrature"));
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("view_timbrature") || ctx_r1.authService.hasPermission("manage_timbrature"));
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("manage_timbrature"));
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("manage_timbrature"));
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("manage_timbrature"));
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("manage_timbrature"));
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("manage_timbrature"));
+  }
+}
+function App_aside_1_ng_container_9_div_15_div_1_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "div", 40);
+    \u0275\u0275text(1, "Promethea");
+    \u0275\u0275elementEnd();
+  }
+}
+function App_aside_1_ng_container_9_div_15_div_2_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275element(0, "div", 41);
+  }
+}
+function App_aside_1_ng_container_9_div_15_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "div", 14);
+    \u0275\u0275template(1, App_aside_1_ng_container_9_div_15_div_1_Template, 2, 0, "div", 15)(2, App_aside_1_ng_container_9_div_15_div_2_Template, 1, 0, "div", 16);
+    \u0275\u0275elementStart(3, "ul", 17)(4, "li", 19)(5, "a", 89);
+    \u0275\u0275element(6, "lucide-angular", 90);
     \u0275\u0275elementStart(7, "span", 22);
     \u0275\u0275text(8, "Crea il tuo sito web");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(9, "li", 19)(10, "a", 78);
-    \u0275\u0275element(11, "lucide-angular", 79);
+    \u0275\u0275elementStart(9, "li", 19)(10, "a", 91);
+    \u0275\u0275element(11, "lucide-angular", 92);
     \u0275\u0275elementStart(12, "span", 22);
     \u0275\u0275text(13, "Gestione Fiscale");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(14, "li", 19)(15, "a", 80);
-    \u0275\u0275element(16, "lucide-angular", 81);
+    \u0275\u0275elementStart(14, "li", 19)(15, "a", 93);
+    \u0275\u0275element(16, "lucide-angular", 94);
     \u0275\u0275elementStart(17, "span", 22);
     \u0275\u0275text(18, "Promuovi il ristorante");
     \u0275\u0275elementEnd()()()()();
@@ -3208,7 +3484,7 @@ function App_aside_1_ng_container_9_Template(rf, ctx) {
     \u0275\u0275elementStart(4, "ul", 17);
     \u0275\u0275template(5, App_aside_1_ng_container_9_li_5_Template, 5, 2, "li", 18)(6, App_aside_1_ng_container_9_li_6_Template, 5, 2, "li", 18)(7, App_aside_1_ng_container_9_li_7_Template, 5, 2, "li", 18)(8, App_aside_1_ng_container_9_li_8_Template, 5, 2, "li", 18)(9, App_aside_1_ng_container_9_li_9_Template, 5, 2, "li", 18);
     \u0275\u0275elementEnd()();
-    \u0275\u0275template(10, App_aside_1_ng_container_9_div_10_Template, 7, 5, "div", 39)(11, App_aside_1_ng_container_9_div_11_Template, 8, 6, "div", 39)(12, App_aside_1_ng_container_9_div_12_Template, 7, 5, "div", 39)(13, App_aside_1_ng_container_9_div_13_Template, 6, 4, "div", 39)(14, App_aside_1_ng_container_9_div_14_Template, 19, 8, "div", 39);
+    \u0275\u0275template(10, App_aside_1_ng_container_9_div_10_Template, 7, 5, "div", 39)(11, App_aside_1_ng_container_9_div_11_Template, 8, 6, "div", 39)(12, App_aside_1_ng_container_9_div_12_Template, 7, 5, "div", 39)(13, App_aside_1_ng_container_9_div_13_Template, 6, 4, "div", 39)(14, App_aside_1_ng_container_9_div_14_Template, 11, 9, "div", 39)(15, App_aside_1_ng_container_9_div_15_Template, 19, 8, "div", 39);
     \u0275\u0275elementContainerEnd();
   }
   if (rf & 2) {
@@ -3236,6 +3512,8 @@ function App_aside_1_ng_container_9_Template(rf, ctx) {
     \u0275\u0275advance();
     \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("view_reports"));
     \u0275\u0275advance();
+    \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("manage_timbrature") || ctx_r1.authService.hasPermission("view_timbrature"));
+    \u0275\u0275advance();
     \u0275\u0275property("ngIf", ctx_r1.authService.hasPermission("view_reports"));
   }
 }
@@ -3256,13 +3534,13 @@ function App_aside_1_ng_container_11_Template(rf, ctx) {
     \u0275\u0275elementContainerStart(0);
     \u0275\u0275elementStart(1, "div", 14);
     \u0275\u0275template(2, App_aside_1_ng_container_11_div_2_Template, 2, 0, "div", 15)(3, App_aside_1_ng_container_11_div_3_Template, 1, 0, "div", 16);
-    \u0275\u0275elementStart(4, "ul", 17)(5, "li", 19)(6, "a", 82);
+    \u0275\u0275elementStart(4, "ul", 17)(5, "li", 19)(6, "a", 95);
     \u0275\u0275element(7, "lucide-angular", 43);
     \u0275\u0275elementStart(8, "span", 22);
     \u0275\u0275text(9, "Dashboard");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(10, "li", 19)(11, "a", 83);
-    \u0275\u0275element(12, "lucide-angular", 84);
+    \u0275\u0275elementStart(10, "li", 19)(11, "a", 96);
+    \u0275\u0275element(12, "lucide-angular", 97);
     \u0275\u0275elementStart(13, "span", 22);
     \u0275\u0275text(14, "Catalogo Prodotti");
     \u0275\u0275elementEnd()()()()();
@@ -3301,38 +3579,38 @@ function App_aside_1_ng_container_13_Template(rf, ctx) {
     \u0275\u0275elementContainerStart(0);
     \u0275\u0275elementStart(1, "div", 14);
     \u0275\u0275template(2, App_aside_1_ng_container_13_div_2_Template, 2, 0, "div", 15)(3, App_aside_1_ng_container_13_div_3_Template, 1, 0, "div", 16);
-    \u0275\u0275elementStart(4, "ul", 17)(5, "li", 85)(6, "a", 86);
-    \u0275\u0275element(7, "lucide-angular", 87);
+    \u0275\u0275elementStart(4, "ul", 17)(5, "li", 83)(6, "a", 98);
+    \u0275\u0275element(7, "lucide-angular", 99);
     \u0275\u0275elementStart(8, "span", 22);
     \u0275\u0275text(9, "Cerca Ristoranti");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(10, "li", 19)(11, "a", 88);
-    \u0275\u0275element(12, "lucide-angular", 89);
+    \u0275\u0275elementStart(10, "li", 19)(11, "a", 100);
+    \u0275\u0275element(12, "lucide-angular", 101);
     \u0275\u0275elementStart(13, "span", 22);
     \u0275\u0275text(14, "Home");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(15, "li", 19)(16, "a", 90);
+    \u0275\u0275elementStart(15, "li", 19)(16, "a", 102);
     \u0275\u0275element(17, "lucide-angular", 59);
     \u0275\u0275elementStart(18, "span", 22);
     \u0275\u0275text(19, "Lista Ristoranti");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(20, "li", 85)(21, "a", 91);
-    \u0275\u0275element(22, "lucide-angular", 92);
+    \u0275\u0275elementStart(20, "li", 83)(21, "a", 103);
+    \u0275\u0275element(22, "lucide-angular", 104);
     \u0275\u0275elementStart(23, "span", 22);
     \u0275\u0275text(24, "Le mie Prenotazioni");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(25, "li", 19)(26, "a", 93);
-    \u0275\u0275element(27, "lucide-angular", 94);
+    \u0275\u0275elementStart(25, "li", 19)(26, "a", 105);
+    \u0275\u0275element(27, "lucide-angular", 106);
     \u0275\u0275elementStart(28, "span", 22);
     \u0275\u0275text(29, "Le mie Promozioni");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(30, "li", 85)(31, "a", 95);
-    \u0275\u0275element(32, "lucide-angular", 96);
+    \u0275\u0275elementStart(30, "li", 83)(31, "a", 107);
+    \u0275\u0275element(32, "lucide-angular", 108);
     \u0275\u0275elementStart(33, "span", 22);
     \u0275\u0275text(34, "I miei Ordini");
     \u0275\u0275elementEnd()()();
-    \u0275\u0275elementStart(35, "li", 85)(36, "a", 97);
-    \u0275\u0275element(37, "lucide-angular", 98);
+    \u0275\u0275elementStart(35, "li", 83)(36, "a", 109);
+    \u0275\u0275element(37, "lucide-angular", 110);
     \u0275\u0275elementStart(38, "span", 22);
     \u0275\u0275text(39, "Le mie Recensioni");
     \u0275\u0275elementEnd()()()()();
@@ -3388,7 +3666,7 @@ function App_aside_1_div_17_Template(rf, ctx) {
 }
 function App_aside_1_li_19_span_5_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "span", 102);
+    \u0275\u0275elementStart(0, "span", 114);
     \u0275\u0275text(1);
     \u0275\u0275elementEnd();
   }
@@ -3401,12 +3679,12 @@ function App_aside_1_li_19_span_5_Template(rf, ctx) {
 }
 function App_aside_1_li_19_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "li", 19)(1, "a", 99);
-    \u0275\u0275element(2, "lucide-angular", 100);
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 111);
+    \u0275\u0275element(2, "lucide-angular", 112);
     \u0275\u0275elementStart(3, "span", 22);
     \u0275\u0275text(4, "Chat");
     \u0275\u0275elementEnd();
-    \u0275\u0275template(5, App_aside_1_li_19_span_5_Template, 2, 3, "span", 101);
+    \u0275\u0275template(5, App_aside_1_li_19_span_5_Template, 2, 3, "span", 113);
     \u0275\u0275pipe(6, "async");
     \u0275\u0275elementEnd()();
   }
@@ -3422,8 +3700,8 @@ function App_aside_1_li_19_Template(rf, ctx) {
 }
 function App_aside_1_li_21_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "li", 19)(1, "a", 103);
-    \u0275\u0275element(2, "lucide-angular", 104);
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 115);
+    \u0275\u0275element(2, "lucide-angular", 116);
     \u0275\u0275elementStart(3, "span", 22);
     \u0275\u0275text(4, "Profilo");
     \u0275\u0275elementEnd()()();
@@ -3438,8 +3716,8 @@ function App_aside_1_li_21_Template(rf, ctx) {
 }
 function App_aside_1_li_23_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "li", 19)(1, "a", 105);
-    \u0275\u0275element(2, "lucide-angular", 106);
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 117);
+    \u0275\u0275element(2, "lucide-angular", 118);
     \u0275\u0275elementStart(3, "span", 22);
     \u0275\u0275text(4, "Impostazioni");
     \u0275\u0275elementEnd()()();
@@ -3454,8 +3732,8 @@ function App_aside_1_li_23_Template(rf, ctx) {
 }
 function App_aside_1_li_25_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "li", 19)(1, "a", 107);
-    \u0275\u0275element(2, "lucide-angular", 104);
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 119);
+    \u0275\u0275element(2, "lucide-angular", 116);
     \u0275\u0275elementStart(3, "span", 22);
     \u0275\u0275text(4, "Profilo");
     \u0275\u0275elementEnd()()();
@@ -3470,8 +3748,8 @@ function App_aside_1_li_25_Template(rf, ctx) {
 }
 function App_aside_1_li_27_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "li", 19)(1, "a", 108);
-    \u0275\u0275element(2, "lucide-angular", 106);
+    \u0275\u0275elementStart(0, "li", 19)(1, "a", 120);
+    \u0275\u0275element(2, "lucide-angular", 118);
     \u0275\u0275elementStart(3, "span", 22);
     \u0275\u0275text(4, "Impostazioni");
     \u0275\u0275elementEnd()()();
@@ -3486,8 +3764,8 @@ function App_aside_1_li_27_Template(rf, ctx) {
 }
 function App_aside_1_div_35_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 109);
-    \u0275\u0275element(1, "app-context-selector", 110);
+    \u0275\u0275elementStart(0, "div", 121);
+    \u0275\u0275element(1, "app-context-selector", 122);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -3498,7 +3776,7 @@ function App_aside_1_div_35_Template(rf, ctx) {
 }
 function App_aside_1_div_39_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 115);
+    \u0275\u0275elementStart(0, "div", 127);
     \u0275\u0275text(1);
     \u0275\u0275elementEnd();
   }
@@ -3510,7 +3788,7 @@ function App_aside_1_div_39_div_4_Template(rf, ctx) {
 }
 function App_aside_1_div_39_div_6_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 115);
+    \u0275\u0275elementStart(0, "div", 127);
     \u0275\u0275text(1);
     \u0275\u0275elementEnd();
   }
@@ -3522,12 +3800,12 @@ function App_aside_1_div_39_div_6_Template(rf, ctx) {
 }
 function App_aside_1_div_39_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 111)(1, "div", 112)(2, "span", 113);
+    \u0275\u0275elementStart(0, "div", 123)(1, "div", 124)(2, "span", 125);
     \u0275\u0275text(3);
     \u0275\u0275elementEnd()();
-    \u0275\u0275template(4, App_aside_1_div_39_div_4_Template, 2, 1, "div", 114);
+    \u0275\u0275template(4, App_aside_1_div_39_div_4_Template, 2, 1, "div", 126);
     \u0275\u0275pipe(5, "async");
-    \u0275\u0275template(6, App_aside_1_div_39_div_6_Template, 2, 1, "div", 114);
+    \u0275\u0275template(6, App_aside_1_div_39_div_6_Template, 2, 1, "div", 126);
     \u0275\u0275pipe(7, "async");
     \u0275\u0275elementEnd();
   }
@@ -3571,7 +3849,7 @@ function App_aside_1_Template(rf, ctx) {
     \u0275\u0275element(7, "lucide-angular", 11);
     \u0275\u0275elementEnd()()();
     \u0275\u0275elementStart(8, "nav", 13);
-    \u0275\u0275template(9, App_aside_1_ng_container_9_Template, 15, 12, "ng-container", 5);
+    \u0275\u0275template(9, App_aside_1_ng_container_9_Template, 16, 13, "ng-container", 5);
     \u0275\u0275pipe(10, "async");
     \u0275\u0275template(11, App_aside_1_ng_container_11_Template, 15, 6, "ng-container", 5);
     \u0275\u0275pipe(12, "async");
@@ -3672,7 +3950,7 @@ function App_aside_1_Template(rf, ctx) {
 function App_app_header_7_Template(rf, ctx) {
   if (rf & 1) {
     const _r4 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "app-header", 116);
+    \u0275\u0275elementStart(0, "app-header", 128);
     \u0275\u0275pipe(1, "async");
     \u0275\u0275pipe(2, "async");
     \u0275\u0275pipe(3, "async");
@@ -3972,7 +4250,7 @@ var App = class _App {
         return ctx.onDocumentClick($event);
       }, false, \u0275\u0275resolveDocument);
     }
-  }, decls: 14, vars: 18, consts: [[1, "app-container"], ["class", "sidebar", 3, "sidebar--collapsed", "text-large", "sidebar--tutorial-active", "click", 4, "ngIf"], [3, "isLoading"], [1, "main-content"], [3, "title", "icon", "showToggle", "toggleMenu", 4, "ngIf"], [4, "ngIf"], [1, "sidebar", 3, "click"], [1, "sidebar-header"], ["class", "sidebar-brand", 4, "ngIf"], [1, "flex", "gap-sm", "flex-wrap", "p-sm1"], [1, "icon-button", "bottonetesto", "p-mini", 3, "click"], [1, "nav-icon", 3, "name"], ["aria-label", "Apri/Chiudi sidebar", 1, "icon-button", "aprichiudisidebar", 3, "click"], [1, "sidebar-nav"], [1, "nav-section"], ["class", "nav-section-title", 4, "ngIf"], ["class", "section-divider elegant", 4, "ngIf"], [1, "nav-menu"], ["class", "nav-item", 4, "ngIf"], [1, "nav-item"], ["data-label", "Logout", 1, "icon-button", "largo", 3, "click"], ["name", "log-out", 1, "nav-icon", 3, "size"], [1, "nav-text"], [1, "sidebar_footer"], ["class", "context-selector-container", 4, "ngIf"], [1, "sidebar-user"], [1, "user-main-info"], ["class", "user-details", 4, "ngIf"], [1, "theme-switch"], ["type", "checkbox", 3, "change", "checked"], [1, "theme-switch-slider"], ["name", "sun", 1, "theme-icon", "sun-icon", 3, "size"], ["name", "moon", 1, "theme-icon", "moon-icon", 3, "size"], [1, "role-icon"], [3, "name", "size"], [1, "sidebar-brand"], [1, "logo"], ["src", "logoristoapp.png", 1, "logopiccolo"], [1, "gradient-text", "platea"], ["class", "nav-section", 4, "ngIf"], [1, "nav-section-title"], [1, "section-divider", "elegant"], ["routerLink", "/restaurant/dashboard", "routerLinkActive", "nav-link--active", "data-tutorial", "dashboard", "data-label", "Dashboard", 1, "nav-link"], ["name", "layout-dashboard", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/floor-plan", "routerLinkActive", "nav-link--active", "data-tutorial", "floor-plan", "data-label", "Layout Sala", 1, "nav-link"], ["name", "table-2", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/marketing-management", "routerLinkActive", "nav-link--active", "data-label", "Gestione Marketing", 1, "nav-link"], ["name", "megaphone", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/staff-management", "routerLinkActive", "nav-link--active", "data-tutorial", "staff", "data-label", "Staff", 1, "nav-link"], ["name", "users", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/task-list", "routerLinkActive", "nav-link--active", "data-tutorial", "task-list", "data-label", "Task", 1, "nav-link"], ["name", "clipboard-list", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/table-map", "routerLinkActive", "nav-link--active", "data-tutorial", "table-map", "data-label", "Ordini", 1, "nav-link"], ["name", "utensils-crossed", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/calendar-view", "routerLinkActive", "nav-link--active", "data-tutorial", "calendar", "data-label", "Calendario", 1, "nav-link"], ["name", "calendar", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/reservation-manager", "routerLinkActive", "nav-link--active", "data-tutorial", "reservation-list", "data-label", "Lista Prenotazioni", 1, "nav-link"], ["name", "notebook-text", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/menu", "routerLinkActive", "nav-link--active", "data-tutorial", "menu", "data-label", "Men\xF9 & Piatti", 1, "nav-link"], ["name", "utensils", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/recipe", "routerLinkActive", "nav-link--active", "data-tutorial", "recipe", "data-label", "Ricette", 1, "nav-link"], ["name", "scroll-text", 1, "nav-icon", 3, "size"], ["routerLink", "/food-cost", "routerLinkActive", "nav-link--active", "data-tutorial", "food-cost", "data-label", "Food Cost", 1, "nav-link"], ["name", "piggy-bank", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/kitchen-display", "routerLinkActive", "nav-link--active", "data-tutorial", "kitchen-display", "data-label", "Pannello Cucina", 1, "nav-link"], ["name", "chef-hat", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/inventory", "routerLinkActive", "nav-link--active", "data-tutorial", "inventory", "data-label", "Inventario", 1, "nav-link"], ["name", "package", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/alcoholic-beverages", "routerLinkActive", "nav-link--active", "data-tutorial", "beverages", "data-label", "Bevande", 1, "nav-link"], ["name", "glass-water", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/suppliers", "routerLinkActive", "nav-link--active", "data-label", "Fornitori", 1, "nav-link"], ["name", "truck", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/expense-management", "routerLinkActive", "nav-link--active", "data-label", "Gestione Spese", 1, "nav-link"], ["name", "credit-card", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/financial-report", "routerLinkActive", "nav-link--active", "data-label", "Report Finanziario", 1, "nav-link"], ["name", "bar-chart-3", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/web-site", "routerLinkActive", "nav-link--active", "data-label", "Crea il tuo sito web", 1, "nav-link"], ["name", "globe", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/contabile-fiscale", "routerLinkActive", "nav-link--active", "data-label", "Gestione Fiscale", 1, "nav-link"], ["name", "landmark", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/marketing", "routerLinkActive", "nav-link--active", "data-label", "Promuovi il ristorante", 1, "nav-link"], ["name", "trending-up", 1, "nav-icon", 3, "size"], ["routerLink", "/supplier/dashboard", "routerLinkActive", "nav-link--active", "data-label", "Dashboard", 1, "nav-link"], ["routerLink", "/supplier/products", "routerLinkActive", "nav-link--active", "data-label", "Catalogo Prodotti", 1, "nav-link"], ["name", "package-search", 1, "nav-icon", 3, "size"], [1, "nav-item", 2, "display", "none"], ["routerLink", "/customer/search", "routerLinkActive", "nav-link--active", "data-label", "Cerca Ristoranti", 1, "nav-link"], ["name", "search", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/menu-display", "routerLinkActive", "nav-link--active", "data-label", "Home", 1, "nav-link"], ["name", "home", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/restaurant/restaurant-list", "routerLinkActive", "nav-link--active", "data-tutorial", "discover", "data-label", "Lista Ristoranti", 1, "nav-link"], ["routerLink", "/customer/reservations", "routerLinkActive", "nav-link--active", "data-label", "Le mie Prenotazioni", 1, "nav-link"], ["name", "calendar-check", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/user-promotions", "routerLinkActive", "nav-link--active", "data-label", "Le mie Promozioni", 1, "nav-link"], ["name", "gift", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/orders", "routerLinkActive", "nav-link--active", "data-tutorial", "order", "data-label", "I miei Ordini", 1, "nav-link"], ["name", "shopping-bag", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/reviews", "routerLinkActive", "nav-link--active", "data-label", "Le mie Recensioni", 1, "nav-link"], ["name", "star", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/chat-window", "routerLinkActive", "nav-link--active", "data-tutorial", "chat-window", 1, "nav-link"], ["name", "messages-square", 1, "nav-icon", 3, "size"], ["class", "chip warning", 3, "hidden", 4, "ngIf"], [1, "chip", "warning"], ["routerLink", "/restaurant/profile", "routerLinkActive", "nav-link--active", "data-label", "Profilo", 1, "nav-link"], ["name", "user", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/settings", "routerLinkActive", "nav-link--active", "data-tutorial", "restaurant-settings", "data-label", "Impostazioni", 1, "nav-link"], ["name", "settings", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/profile-user", "routerLinkActive", "nav-link--active", "data-tutorial", "profile", "data-label", "Profilo", 1, "nav-link"], ["routerLink", "/customer/settings", "routerLinkActive", "nav-link--active", "data-label", "Impostazioni Cliente", 1, "nav-link"], [1, "context-selector-container"], [3, "largeText"], [1, "user-details"], [1, "user-info"], [1, "user-name"], ["class", "restaurant-info", 4, "ngIf"], [1, "restaurant-info"], [3, "toggleMenu", "title", "icon", "showToggle"]], template: function App_Template(rf, ctx) {
+  }, decls: 14, vars: 18, consts: [[1, "app-container"], ["class", "sidebar", 3, "sidebar--collapsed", "text-large", "sidebar--tutorial-active", "click", 4, "ngIf"], [3, "isLoading"], [1, "main-content"], [3, "title", "icon", "showToggle", "toggleMenu", 4, "ngIf"], [4, "ngIf"], [1, "sidebar", 3, "click"], [1, "sidebar-header"], ["class", "sidebar-brand", 4, "ngIf"], [1, "flex", "gap-sm", "flex-wrap", "p-sm1"], [1, "icon-button", "bottonetesto", "p-mini", 3, "click"], [1, "nav-icon", 3, "name"], ["aria-label", "Apri/Chiudi sidebar", 1, "icon-button", "aprichiudisidebar", 3, "click"], [1, "sidebar-nav"], [1, "nav-section"], ["class", "nav-section-title", 4, "ngIf"], ["class", "section-divider elegant", 4, "ngIf"], [1, "nav-menu"], ["class", "nav-item", 4, "ngIf"], [1, "nav-item"], ["data-label", "Logout", 1, "icon-button", "largo", 3, "click"], ["name", "log-out", 1, "nav-icon", 3, "size"], [1, "nav-text"], [1, "sidebar_footer"], ["class", "context-selector-container", 4, "ngIf"], [1, "sidebar-user"], [1, "user-main-info"], ["class", "user-details", 4, "ngIf"], [1, "theme-switch"], ["type", "checkbox", 3, "change", "checked"], [1, "theme-switch-slider"], ["name", "sun", 1, "theme-icon", "sun-icon", 3, "size"], ["name", "moon", 1, "theme-icon", "moon-icon", 3, "size"], [1, "role-icon"], [3, "name", "size"], [1, "sidebar-brand"], [1, "logo"], ["src", "logoristoapp.png", 1, "logopiccolo"], [1, "gradient-text", "platea"], ["class", "nav-section", 4, "ngIf"], [1, "nav-section-title"], [1, "section-divider", "elegant"], ["routerLink", "/restaurant/dashboard", "routerLinkActive", "nav-link--active", "data-tutorial", "dashboard", "data-label", "Dashboard", 1, "nav-link"], ["name", "layout-dashboard", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/floor-plan", "routerLinkActive", "nav-link--active", "data-tutorial", "floor-plan", "data-label", "Layout Sala", 1, "nav-link"], ["name", "table-2", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/marketing-management", "routerLinkActive", "nav-link--active", "data-label", "Gestione Marketing", 1, "nav-link"], ["name", "megaphone", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/staff-management", "routerLinkActive", "nav-link--active", "data-tutorial", "staff", "data-label", "Staff", 1, "nav-link"], ["name", "users", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/task-list", "routerLinkActive", "nav-link--active", "data-tutorial", "task-list", "data-label", "Task", 1, "nav-link"], ["name", "clipboard-list", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/table-map", "routerLinkActive", "nav-link--active", "data-tutorial", "table-map", "data-label", "Ordini", 1, "nav-link"], ["name", "utensils-crossed", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/calendar-view", "routerLinkActive", "nav-link--active", "data-tutorial", "calendar", "data-label", "Calendario", 1, "nav-link"], ["name", "calendar", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/reservation-manager", "routerLinkActive", "nav-link--active", "data-tutorial", "reservation-list", "data-label", "Lista Prenotazioni", 1, "nav-link"], ["name", "notebook-text", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/menu", "routerLinkActive", "nav-link--active", "data-tutorial", "menu", "data-label", "Men\xF9 & Piatti", 1, "nav-link"], ["name", "utensils", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/recipe", "routerLinkActive", "nav-link--active", "data-tutorial", "recipe", "data-label", "Ricette", 1, "nav-link"], ["name", "scroll-text", 1, "nav-icon", 3, "size"], ["routerLink", "/food-cost", "routerLinkActive", "nav-link--active", "data-tutorial", "food-cost", "data-label", "Food Cost", 1, "nav-link"], ["name", "piggy-bank", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/kitchen-display", "routerLinkActive", "nav-link--active", "data-tutorial", "kitchen-display", "data-label", "Pannello Cucina", 1, "nav-link"], ["name", "chef-hat", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/inventory", "routerLinkActive", "nav-link--active", "data-tutorial", "inventory", "data-label", "Inventario", 1, "nav-link"], ["name", "package", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/alcoholic-beverages", "routerLinkActive", "nav-link--active", "data-tutorial", "beverages", "data-label", "Bevande", 1, "nav-link"], ["name", "glass-water", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/suppliers", "routerLinkActive", "nav-link--active", "data-label", "Fornitori", 1, "nav-link"], ["name", "truck", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/expense-management", "routerLinkActive", "nav-link--active", "data-label", "Gestione Spese", 1, "nav-link"], ["name", "credit-card", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/financial-report", "routerLinkActive", "nav-link--active", "data-label", "Report Finanziario", 1, "nav-link"], ["name", "bar-chart-3", 1, "nav-icon", 3, "size"], ["class", "nav-item", "style", "display: none;", 4, "ngIf"], ["routerLink", "/restaurant/timbrature/lista", "routerLinkActive", "nav-link--active", 1, "nav-link"], ["name", "clock", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/timbrature/crea", "routerLinkActive", "nav-link--active", 1, "nav-link"], ["name", "clock-plus", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/timbrature/dipendenti", "routerLinkActive", "nav-link--active", 1, "nav-link"], ["routerLink", "/restaurant/timbrature/turni", "routerLinkActive", "nav-link--active", 1, "nav-link"], [1, "nav-item", 2, "display", "none"], ["routerLink", "/restaurant/timbrature/calendario", "routerLinkActive", "nav-link--active", 1, "nav-link"], ["name", "calendar-clock", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/timbrature/report", "routerLinkActive", "nav-link--active", 1, "nav-link"], ["routerLink", "/restaurant/timbrature/impostazioni", "routerLinkActive", "nav-link--active", 1, "nav-link"], ["name", "settings-2", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/web-site", "routerLinkActive", "nav-link--active", "data-label", "Crea il tuo sito web", 1, "nav-link"], ["name", "globe", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/contabile-fiscale", "routerLinkActive", "nav-link--active", "data-label", "Gestione Fiscale", 1, "nav-link"], ["name", "landmark", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/marketing", "routerLinkActive", "nav-link--active", "data-label", "Promuovi il ristorante", 1, "nav-link"], ["name", "trending-up", 1, "nav-icon", 3, "size"], ["routerLink", "/supplier/dashboard", "routerLinkActive", "nav-link--active", "data-label", "Dashboard", 1, "nav-link"], ["routerLink", "/supplier/products", "routerLinkActive", "nav-link--active", "data-label", "Catalogo Prodotti", 1, "nav-link"], ["name", "package-search", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/search", "routerLinkActive", "nav-link--active", "data-label", "Cerca Ristoranti", 1, "nav-link"], ["name", "search", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/menu-display", "routerLinkActive", "nav-link--active", "data-label", "Home", 1, "nav-link"], ["name", "home", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/restaurant/restaurant-list", "routerLinkActive", "nav-link--active", "data-tutorial", "discover", "data-label", "Lista Ristoranti", 1, "nav-link"], ["routerLink", "/customer/reservations", "routerLinkActive", "nav-link--active", "data-label", "Le mie Prenotazioni", 1, "nav-link"], ["name", "calendar-check", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/user-promotions", "routerLinkActive", "nav-link--active", "data-label", "Le mie Promozioni", 1, "nav-link"], ["name", "gift", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/orders", "routerLinkActive", "nav-link--active", "data-tutorial", "order", "data-label", "I miei Ordini", 1, "nav-link"], ["name", "shopping-bag", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/reviews", "routerLinkActive", "nav-link--active", "data-label", "Le mie Recensioni", 1, "nav-link"], ["name", "star", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/chat-window", "routerLinkActive", "nav-link--active", "data-tutorial", "chat-window", 1, "nav-link"], ["name", "messages-square", 1, "nav-icon", 3, "size"], ["class", "chip warning", 3, "hidden", 4, "ngIf"], [1, "chip", "warning"], ["routerLink", "/restaurant/profile", "routerLinkActive", "nav-link--active", "data-label", "Profilo", 1, "nav-link"], ["name", "user", 1, "nav-icon", 3, "size"], ["routerLink", "/restaurant/settings", "routerLinkActive", "nav-link--active", "data-tutorial", "restaurant-settings", "data-label", "Impostazioni", 1, "nav-link"], ["name", "settings", 1, "nav-icon", 3, "size"], ["routerLink", "/customer/profile-user", "routerLinkActive", "nav-link--active", "data-tutorial", "profile", "data-label", "Profilo", 1, "nav-link"], ["routerLink", "/customer/settings", "routerLinkActive", "nav-link--active", "data-label", "Impostazioni Cliente", 1, "nav-link"], [1, "context-selector-container"], [3, "largeText"], [1, "user-details"], [1, "user-info"], [1, "user-name"], ["class", "restaurant-info", 4, "ngIf"], [1, "restaurant-info"], [3, "toggleMenu", "title", "icon", "showToggle"]], template: function App_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0);
       \u0275\u0275template(1, App_aside_1_Template, 48, 52, "aside", 1);
@@ -4281,6 +4559,64 @@ var App = class _App {
           </ul>\r
         </div>\r
 \r
+        <!-- TIMBRATURE -->\r
+        <div class="nav-section" *ngIf="authService.hasPermission('manage_timbrature') || authService.hasPermission('view_timbrature')">\r
+          <div class="nav-section-title" *ngIf="!isSidebarCollapsed">Timbrature</div>\r
+          <div class="section-divider elegant" *ngIf="isSidebarCollapsed"></div>\r
+          <ul class="nav-menu">\r
+            <li class="nav-item" *ngIf="authService.hasPermission('view_timbrature') || authService.hasPermission('manage_timbrature')">\r
+              <a routerLink="/restaurant/timbrature/lista" routerLinkActive="nav-link--active" class="nav-link"\r
+                [attr.title]="isSidebarCollapsed ? 'Timbrature' : null">\r
+                <lucide-angular name="clock" [size]="iconSize" class="nav-icon"></lucide-angular>\r
+                <span class="nav-text">Timbrature</span>\r
+              </a>\r
+            </li>\r
+            <li class="nav-item" *ngIf="authService.hasPermission('view_timbrature') || authService.hasPermission('manage_timbrature')">\r
+              <a routerLink="/restaurant/timbrature/crea" routerLinkActive="nav-link--active" class="nav-link"\r
+                [attr.title]="isSidebarCollapsed ? 'Nuova Timbratura' : null">\r
+                <lucide-angular name="clock-plus" [size]="iconSize" class="nav-icon"></lucide-angular>\r
+                <span class="nav-text">Nuova Timbratura</span>\r
+              </a>\r
+            </li>\r
+            <li class="nav-item" *ngIf="authService.hasPermission('manage_timbrature')">\r
+              <a routerLink="/restaurant/timbrature/dipendenti" routerLinkActive="nav-link--active" class="nav-link"\r
+                [attr.title]="isSidebarCollapsed ? 'Dipendenti' : null">\r
+                <lucide-angular name="users" [size]="iconSize" class="nav-icon"></lucide-angular>\r
+                <span class="nav-text">Dipendenti</span>\r
+              </a>\r
+            </li>\r
+            <li class="nav-item" *ngIf="authService.hasPermission('manage_timbrature')">\r
+              <a routerLink="/restaurant/timbrature/turni" routerLinkActive="nav-link--active" class="nav-link"\r
+                [attr.title]="isSidebarCollapsed ? 'Turni' : null">\r
+                <lucide-angular name="clipboard-list" [size]="iconSize" class="nav-icon"></lucide-angular>\r
+                <span class="nav-text">Gestione Turni</span>\r
+              </a>\r
+            </li>\r
+            <li class="nav-item" *ngIf="authService.hasPermission('manage_timbrature')"\r
+            style="display: none;">\r
+              <a routerLink="/restaurant/timbrature/calendario" routerLinkActive="nav-link--active" class="nav-link"\r
+                [attr.title]="isSidebarCollapsed ? 'Calendario' : null">\r
+                <lucide-angular name="calendar-clock" [size]="iconSize" class="nav-icon"></lucide-angular>\r
+                <span class="nav-text">Calendario</span>\r
+              </a>\r
+            </li>\r
+            <li class="nav-item" *ngIf="authService.hasPermission('manage_timbrature')">\r
+              <a routerLink="/restaurant/timbrature/report" routerLinkActive="nav-link--active" class="nav-link"\r
+                [attr.title]="isSidebarCollapsed ? 'Report' : null">\r
+                <lucide-angular name="bar-chart-3" [size]="iconSize" class="nav-icon"></lucide-angular>\r
+                <span class="nav-text">Report</span>\r
+              </a>\r
+            </li>\r
+            <li class="nav-item" *ngIf="authService.hasPermission('manage_timbrature')">\r
+              <a routerLink="/restaurant/timbrature/impostazioni" routerLinkActive="nav-link--active" class="nav-link"\r
+                [attr.title]="isSidebarCollapsed ? 'Impostazioni Timbrature' : null">\r
+                <lucide-angular name="settings-2" [size]="iconSize" class="nav-icon"></lucide-angular>\r
+                <span class="nav-text">Impostazioni</span>\r
+              </a>\r
+            </li>\r
+          </ul>\r
+        </div>\r
+        \r
         <!-- PROMETHEA -->\r
         <div class="nav-section" *ngIf="authService.hasPermission('view_reports')">\r
           <div class="nav-section-title" *ngIf="!isSidebarCollapsed">Promethea</div>\r

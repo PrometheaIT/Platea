@@ -1,18 +1,18 @@
 import {
   SupplierAuthService
-} from "./chunk-JIPGK6YB.js";
+} from "./chunk-DYACFB74.js";
 import {
   ChatService
-} from "./chunk-36OX54UV.js";
+} from "./chunk-LDX73JLD.js";
 import {
   Loader as Loader2
 } from "./chunk-635BUGKR.js";
 import {
   TutorialService
-} from "./chunk-DUZGO5NE.js";
+} from "./chunk-7UON3EPT.js";
 import {
   TaskService
-} from "./chunk-LJEGTELM.js";
+} from "./chunk-6UKXND3P.js";
 import {
   ThemeService
 } from "./chunk-U5WEYFE6.js";
@@ -32,7 +32,7 @@ import {
   SelectControlValueAccessor,
   ɵNgSelectMultipleOption
 } from "./chunk-CQ6KSR3R.js";
-import "./chunk-K4QVN3EH.js";
+import "./chunk-G2WSKIFL.js";
 import {
   LoadingService
 } from "./chunk-XWVRHBBC.js";
@@ -212,7 +212,7 @@ import {
 import {
   AuthService,
   PermissionService
-} from "./chunk-JWP3QZ4U.js";
+} from "./chunk-6SNKM7Z6.js";
 import {
   ActivatedRoute,
   NavigationEnd,
@@ -993,7 +993,7 @@ var routes = [
   // ── PUBBLICHE ──────────────────────────────────────────────────
   {
     path: "login",
-    loadComponent: () => import("./chunk-GXMGDXQF.js").then((m) => m.Login)
+    loadComponent: () => import("./chunk-I6FPQCKX.js").then((m) => m.Login)
   },
   {
     path: "policy",
@@ -1010,12 +1010,12 @@ var routes = [
     children: [
       {
         path: "",
-        loadComponent: () => import("./chunk-X44LTLIS.js").then((m) => m.Register),
+        loadComponent: () => import("./chunk-ZEKF7LJQ.js").then((m) => m.Register),
         data: { hideGlobalHeader: true }
       },
       {
         path: ":role",
-        loadComponent: () => import("./chunk-X44LTLIS.js").then((m) => m.Register),
+        loadComponent: () => import("./chunk-ZEKF7LJQ.js").then((m) => m.Register),
         data: { hideGlobalHeader: true }
       }
     ]
@@ -1023,12 +1023,12 @@ var routes = [
   // ── PUBBLICHE CUSTOMER (senza auth) ───────────────────────────
   {
     path: "customer/restaurant/restaurant-list",
-    loadComponent: () => import("./chunk-ZU5A7J4J.js").then((m) => m.RestaurantList),
+    loadComponent: () => import("./chunk-NOSBDOIE.js").then((m) => m.RestaurantList),
     data: { title: "Cerca Ristoranti", icon: "utensils" }
   },
   {
     path: "customer/restaurant/:restaurantId/map",
-    loadComponent: () => import("./chunk-76ELQWRM.js").then((m) => m.RestaurantMapViewer),
+    loadComponent: () => import("./chunk-E4QEEGFZ.js").then((m) => m.RestaurantMapViewer),
     data: { hideGlobalHeader: true }
   },
   // ── RISTORANTE ─────────────────────────────────────────────────
@@ -1038,31 +1038,31 @@ var routes = [
     children: [
       {
         path: "dashboard",
-        loadComponent: () => import("./chunk-L7QZJHN4.js").then((m) => m.Dashboard),
+        loadComponent: () => import("./chunk-PREQFW2M.js").then((m) => m.Dashboard),
         canActivate: [RoleGuard],
         data: { permissions: ["view_dashboard"], title: "Dashboard", icon: "layout-dashboard" }
       },
       {
         path: "menu",
-        loadComponent: () => import("./chunk-WWK4SVTH.js").then((m) => m.MenuBuilder),
+        loadComponent: () => import("./chunk-KOT2FXGP.js").then((m) => m.MenuBuilder),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Men\xF9 & Piatti", icon: "utensils" }
       },
       {
         path: "menu-pdf-upload",
-        loadComponent: () => import("./chunk-ZGYCNGRQ.js").then((m) => m.MenuPdfUploadComponent),
+        loadComponent: () => import("./chunk-APZWUSPX.js").then((m) => m.MenuPdfUploadComponent),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Men\xF9 PDF Upload", icon: "file-upload" }
       },
       {
         path: "menu-pdf-zone-editor",
-        loadComponent: () => import("./chunk-2N5ZEIOL.js").then((m) => m.MenuPdfZoneEditorComponent),
+        loadComponent: () => import("./chunk-LEKASAVJ.js").then((m) => m.MenuPdfZoneEditorComponent),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Men\xF9 PDF Editor", icon: "file-upload" }
       },
       {
         path: "alcoholic-beverages",
-        loadComponent: () => import("./chunk-ZXLUSRMW.js").then((m) => m.AlcoholicBeverages),
+        loadComponent: () => import("./chunk-ZAEXGERD.js").then((m) => m.AlcoholicBeverages),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_menu", "view_menu_readonly", "manage_dish_photos"], title: "Bevande", icon: "glass-water" }
       },
@@ -1074,55 +1074,55 @@ var routes = [
       },
       {
         path: "kitchen-display",
-        loadComponent: () => import("./chunk-G7MXSTDZ.js").then((m) => m.KitchenDisplay),
+        loadComponent: () => import("./chunk-MA4LHAON.js").then((m) => m.KitchenDisplay),
         canActivate: [RoleGuard],
         data: { permissions: ["view_kitchen_display"], title: "Pannello Cucina", icon: "chef-hat" }
       },
       {
         path: "recipe",
-        loadComponent: () => import("./chunk-GQVQIZSF.js").then((m) => m.Recipe),
+        loadComponent: () => import("./chunk-M3IY5WKU.js").then((m) => m.Recipe),
         canActivate: [RoleGuard],
         data: { permissions: ["view_ingredients"], title: "Ricette", icon: "scroll-text" }
       },
       {
         path: "expense-management",
-        loadComponent: () => import("./chunk-7FG35I7K.js").then((m) => m.ExpenseManagement),
+        loadComponent: () => import("./chunk-EBRDOHUX.js").then((m) => m.ExpenseManagement),
         canActivate: [RoleGuard],
         data: { permissions: ["view_reports"], title: "Gestione Spese", icon: "credit-card" }
       },
       {
         path: "financial-report",
-        loadComponent: () => import("./chunk-BDA4E6NW.js").then((m) => m.FinancialReport),
+        loadComponent: () => import("./chunk-57763YVD.js").then((m) => m.FinancialReport),
         canActivate: [RoleGuard],
         data: { permissions: ["view_reports"], title: "Report Finanziario", icon: "bar-chart-3" }
       },
       {
         path: "reservation-manager",
-        loadComponent: () => import("./chunk-CEVV6WKB.js").then((m) => m.ReservationManager),
+        loadComponent: () => import("./chunk-QER346CX.js").then((m) => m.ReservationManager),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_reservations"], title: "Lista Prenotazioni", icon: "notebook-text" }
       },
       {
         path: "table-map",
-        loadComponent: () => import("./chunk-ODI6IVL5.js").then((m) => m.TableMap),
+        loadComponent: () => import("./chunk-JJZSRMGQ.js").then((m) => m.TableMap),
         canActivate: [RoleGuard],
         data: { permissions: ["take_orders"], title: "Ordini", icon: "utensils-crossed" }
       },
       {
         path: "floor-plan",
-        loadComponent: () => import("./chunk-5L5QXPF6.js").then((m) => m.FloorPlanEditor),
+        loadComponent: () => import("./chunk-2ILBUU7X.js").then((m) => m.FloorPlanEditor),
         canActivate: [RoleGuard],
         data: { permissions: ["view_table_map"], title: "Mappa Ristorante", icon: "table-2" }
       },
       {
         path: "calendar-view",
-        loadComponent: () => import("./chunk-LFYMA6GF.js").then((m) => m.RestaurantCalendar),
+        loadComponent: () => import("./chunk-RJCVYDR4.js").then((m) => m.RestaurantCalendar),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_reservations", "view_calendar_readonly"], title: "Calendario", icon: "calendar" }
       },
       {
         path: "inventory",
-        loadComponent: () => import("./chunk-AAAW6ART.js").then((m) => m.Inventory),
+        loadComponent: () => import("./chunk-ACXEXAGC.js").then((m) => m.Inventory),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_inventory"], title: "Inventario", icon: "package" }
       },
@@ -1134,7 +1134,7 @@ var routes = [
       },
       {
         path: "suppliers",
-        loadComponent: () => import("./chunk-3RSXRGUR.js").then((m) => m.SupplierManager),
+        loadComponent: () => import("./chunk-Q4SMB6DS.js").then((m) => m.SupplierManager),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_inventory"], title: "Fornitori", icon: "truck" }
       },
@@ -1146,31 +1146,31 @@ var routes = [
       },
       {
         path: "task-list",
-        loadComponent: () => import("./chunk-X4M7XPMU.js").then((m) => m.TaskListComponent),
+        loadComponent: () => import("./chunk-TIRCAT4S.js").then((m) => m.TaskListComponent),
         canActivate: [RoleGuard],
         data: { title: "Task", icon: "clipboard-list" }
       },
       {
         path: "task-detail/:id",
-        loadComponent: () => import("./chunk-QLTH2DN7.js").then((m) => m.TaskDetailComponent),
+        loadComponent: () => import("./chunk-7NEHDVMF.js").then((m) => m.TaskDetailComponent),
         canActivate: [RoleGuard],
         data: { title: "Dettaglio Task", icon: "clipboard-list" }
       },
       {
         path: "staff-management",
-        loadComponent: () => import("./chunk-DMJJESET.js").then((m) => m.StaffManagement),
+        loadComponent: () => import("./chunk-AAVDRATX.js").then((m) => m.StaffManagement),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff"], title: "Staff", icon: "users" }
       },
       {
         path: "marketing-management",
-        loadComponent: () => import("./chunk-7SC6W675.js").then((m) => m.MarketingManagement),
+        loadComponent: () => import("./chunk-TAKVVPOU.js").then((m) => m.MarketingManagement),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff", "manage_marketing"], title: "Gestione Marketing", icon: "megaphone" }
       },
       {
         path: "web-site",
-        loadComponent: () => import("./chunk-S5TZ5TOP.js").then((m) => m.WebSite),
+        loadComponent: () => import("./chunk-KFGUD4WY.js").then((m) => m.WebSite),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff"], title: "Crea il tuo sito web", icon: "globe" }
       },
@@ -1188,19 +1188,19 @@ var routes = [
       },
       {
         path: "profile",
-        loadComponent: () => import("./chunk-6HDAQZUG.js").then((m) => m.Profile),
+        loadComponent: () => import("./chunk-7VUVDHKS.js").then((m) => m.Profile),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_staff", "view_profile"], title: "Profilo", icon: "user" }
       },
       {
         path: "settings",
-        loadComponent: () => import("./chunk-O2RZ4FPL.js").then((m) => m.RestaurantSettings),
+        loadComponent: () => import("./chunk-NGC3YTXO.js").then((m) => m.RestaurantSettings),
         canActivate: [RoleGuard],
         data: { permissions: ["manage_restaurant_settings", "manage_dish_photos"], title: "Impostazioni", icon: "settings" }
       },
       {
         path: "chat-window",
-        loadComponent: () => import("./chunk-LMQJ52BK.js").then((m) => m.ChatWindow),
+        loadComponent: () => import("./chunk-L4SEGCHJ.js").then((m) => m.ChatWindow),
         canActivate: [RoleGuard],
         data: { title: "Chat", icon: "messages-square" }
       },
@@ -1214,22 +1214,22 @@ var routes = [
         children: [
           {
             path: "home",
-            loadComponent: () => import("./chunk-U4B4PL55.js").then((m) => m.HomeComponent),
+            loadComponent: () => import("./chunk-QE7Q7DT2.js").then((m) => m.HomeComponent),
             data: { title: "Timbrature", icon: "clock" }
           },
           {
             path: "lista",
-            loadComponent: () => import("./chunk-A6G6W476.js").then((m) => m.ListaTimbratureComponent),
+            loadComponent: () => import("./chunk-C4U2I5IG.js").then((m) => m.ListaTimbratureComponent),
             data: { title: "Lista Timbrature", icon: "clock" }
           },
           {
             path: "crea",
-            loadComponent: () => import("./chunk-NOX3PGMJ.js").then((m) => m.CreaTimbraturaComponent),
+            loadComponent: () => import("./chunk-APMVDEM4.js").then((m) => m.CreaTimbraturaComponent),
             data: { title: "Nuova Timbratura", icon: "plus-circle" }
           },
           {
             path: "crea/:id",
-            loadComponent: () => import("./chunk-NOX3PGMJ.js").then((m) => m.CreaTimbraturaComponent),
+            loadComponent: () => import("./chunk-APMVDEM4.js").then((m) => m.CreaTimbraturaComponent),
             data: { title: "Modifica Timbratura", icon: "pencil" }
           },
           {
@@ -1239,17 +1239,17 @@ var routes = [
           },
           {
             path: "dipendenti",
-            loadComponent: () => import("./chunk-5ATNNMMB.js").then((m) => m.ListaDipendentiComponent),
+            loadComponent: () => import("./chunk-BKDHZ46D.js").then((m) => m.ListaDipendentiComponent),
             data: { title: "Dipendenti", icon: "users" }
           },
           {
             path: "dipendenti/:id",
-            loadComponent: () => import("./chunk-GM24MCII.js").then((m) => m.DipendenteDettaglioComponent),
+            loadComponent: () => import("./chunk-YSFRCTA6.js").then((m) => m.DipendenteDettaglioComponent),
             data: { title: "Dettaglio Dipendente", icon: "user" }
           },
           {
             path: "inviti",
-            loadComponent: () => import("./chunk-SJVX2LDK.js").then((m) => m.InvitiDipendentiComponent),
+            loadComponent: () => import("./chunk-CAJBEMZJ.js").then((m) => m.InvitiDipendentiComponent),
             data: { title: "Inviti Dipendenti", icon: "mail" }
           },
           {
@@ -1259,27 +1259,27 @@ var routes = [
           },
           {
             path: "report",
-            loadComponent: () => import("./chunk-I6ATDPW5.js").then((m) => m.ReportComponent),
+            loadComponent: () => import("./chunk-RTLEPRUN.js").then((m) => m.ReportComponent),
             data: { title: "Report", icon: "bar-chart-3" }
           },
           {
             path: "turni",
-            loadComponent: () => import("./chunk-O7UKNHK4.js").then((m) => m.ShiftManagementComponent),
+            loadComponent: () => import("./chunk-4SMWTGU7.js").then((m) => m.ShiftManagementComponent),
             data: { title: "Gestione Turni", icon: "clipboard-list" }
           },
           {
             path: "kpi",
-            loadComponent: () => import("./chunk-5WESRJYV.js").then((m) => m.KpiComponent),
+            loadComponent: () => import("./chunk-WV7YWK6I.js").then((m) => m.KpiComponent),
             data: { title: "KPI", icon: "activity" }
           },
           {
             path: "profilo",
-            loadComponent: () => import("./chunk-3SSLXYZY.js").then((m) => m.ProfiloAziendaleComponent),
+            loadComponent: () => import("./chunk-EXA6CJPJ.js").then((m) => m.ProfiloAziendaleComponent),
             data: { title: "Profilo Aziendale", icon: "building" }
           },
           {
             path: "impostazioni",
-            loadComponent: () => import("./chunk-CQDFISEY.js").then((m) => m.ImpostazioniComponent),
+            loadComponent: () => import("./chunk-GET4PQKW.js").then((m) => m.ImpostazioniComponent),
             data: { title: "Impostazioni Timbrature", icon: "settings" }
           },
           { path: "", redirectTo: "home", pathMatch: "full" }
@@ -1296,7 +1296,7 @@ var routes = [
     children: [
       {
         path: "dashboard",
-        loadComponent: () => import("./chunk-N4W6UNBH.js").then((m) => m.SupplierDashboard),
+        loadComponent: () => import("./chunk-3KJVJL7C.js").then((m) => m.SupplierDashboard),
         data: { title: "Dashboard", icon: "layout-dashboard" }
       },
       {
@@ -1311,12 +1311,12 @@ var routes = [
       },
       {
         path: "products",
-        loadComponent: () => import("./chunk-L4WTEDMF.js").then((m) => m.SupplierIngredients),
+        loadComponent: () => import("./chunk-CQO2OHZT.js").then((m) => m.SupplierIngredients),
         data: { title: "Catalogo Prodotti", icon: "package-search" }
       },
       {
         path: "ingredients",
-        loadComponent: () => import("./chunk-L4WTEDMF.js").then((m) => m.SupplierIngredients),
+        loadComponent: () => import("./chunk-CQO2OHZT.js").then((m) => m.SupplierIngredients),
         data: { title: "Ingredienti", icon: "package" }
       },
       { path: "", redirectTo: "dashboard", pathMatch: "full" }
@@ -1340,12 +1340,12 @@ var routes = [
       },
       {
         path: "menu-display",
-        loadComponent: () => import("./chunk-IJHETVEF.js").then((m) => m.MenuDisplay),
+        loadComponent: () => import("./chunk-5TDCLTVU.js").then((m) => m.MenuDisplay),
         data: { hideGlobalHeader: true }
       },
       {
         path: "menu/:id",
-        loadComponent: () => import("./chunk-IJHETVEF.js").then((m) => m.MenuDisplay),
+        loadComponent: () => import("./chunk-5TDCLTVU.js").then((m) => m.MenuDisplay),
         data: { hideGlobalHeader: true }
       },
       {
@@ -1355,7 +1355,7 @@ var routes = [
       },
       {
         path: "restaurant/:id",
-        loadComponent: () => import("./chunk-UKQLKN5D.js").then((m) => m.RestaurantDetail),
+        loadComponent: () => import("./chunk-TANOUUFH.js").then((m) => m.RestaurantDetail),
         data: { hideGlobalHeader: true }
       },
       {
@@ -1370,17 +1370,17 @@ var routes = [
       },
       {
         path: "user-promotions",
-        loadComponent: () => import("./chunk-PCY3TVN6.js").then((m) => m.UserPromotionsComponent),
+        loadComponent: () => import("./chunk-5U36TV6G.js").then((m) => m.UserPromotionsComponent),
         data: { title: "Le mie Promozioni", icon: "tag" }
       },
       {
         path: "settings",
-        loadComponent: () => import("./chunk-2PU7FHDF.js").then((m) => m.SettingsCustomer),
+        loadComponent: () => import("./chunk-KBX57LC5.js").then((m) => m.SettingsCustomer),
         data: { title: "Impostazioni", icon: "settings" }
       },
       {
         path: "profile-user",
-        loadComponent: () => import("./chunk-IV5TMQAU.js").then((m) => m.ProfileUser),
+        loadComponent: () => import("./chunk-WXUMWKZA.js").then((m) => m.ProfileUser),
         data: { title: "Account", icon: "user" }
       },
       { path: "", redirectTo: "home", pathMatch: "full" }
@@ -1389,19 +1389,19 @@ var routes = [
   // ── FOOD COST ──────────────────────────────────────────────────
   {
     path: "food-cost",
-    loadComponent: () => import("./chunk-4KZZZH57.js").then((m) => m.FoodCostCalculator),
+    loadComponent: () => import("./chunk-WKQ2IS2S.js").then((m) => m.FoodCostCalculator),
     canActivate: [AuthGuard, StaffGuard],
     data: { permissions: ["view_ingredients"], title: "Food Cost", icon: "piggy-bank" }
   },
   {
     path: "food-cost-calculator/:id",
-    loadComponent: () => import("./chunk-4KZZZH57.js").then((m) => m.FoodCostCalculator),
+    loadComponent: () => import("./chunk-WKQ2IS2S.js").then((m) => m.FoodCostCalculator),
     canActivate: [AuthGuard, StaffGuard],
     data: { permissions: ["view_ingredients"], title: "Modifica Piatto", icon: "piggy-bank" }
   },
   {
     path: "food-cost/ingredient/new",
-    loadComponent: () => import("./chunk-4KZZZH57.js").then((m) => m.FoodCostCalculator),
+    loadComponent: () => import("./chunk-WKQ2IS2S.js").then((m) => m.FoodCostCalculator),
     canActivate: [AuthGuard, StaffGuard],
     data: { permissions: ["view_ingredients"], title: "Crea Ingrediente", icon: "package-plus" }
   },
@@ -4919,7 +4919,8 @@ var App = class _App {
 
 // src/main.ts
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js").then(() => {
+  const swPath = window.location.hostname === "localhost" ? "/sw.js" : "/ristoranteapp/sw.js";
+  navigator.serviceWorker.register(swPath).then(() => {
     console.log("Service worker registrato");
   }).catch((err) => {
     console.error("Errore registrazione SW:", err);

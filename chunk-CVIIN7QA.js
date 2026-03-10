@@ -1,1 +1,0 @@
-import{Eb as n,Fb as o,Xb as s,gb as a}from"./chunk-ABD4ZYWT.js";import"./chunk-RA2WU32H.js";var p=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=a({type:t,selectors:[["app-buste-paga"]],decls:2,vars:0,template:function(e,m){e&1&&(n(0,"p"),s(1,"buste-paga works!"),o())},encapsulation:2})};export{p as BustePagaComponent};

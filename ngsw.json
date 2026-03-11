@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1773225738680,
+  "timestamp": 1773235509931,
   "index": "/Platea/index.html",
   "assetGroups": [
     {
@@ -147,7 +147,7 @@
         "/Platea/chunk-ZWNYK7Z7.js",
         "/Platea/favicon.ico",
         "/Platea/index.html",
-        "/Platea/main-KJMUJIQP.js",
+        "/Platea/main-FSZBTO33.js",
         "/Platea/manifest.webmanifest",
         "/Platea/polyfills-B6TNHZQ6.js",
         "/Platea/styles-Z6SZAAL2.css"
@@ -381,11 +381,11 @@
     "/Platea/icons/icon-72x72.png": "e07029b49bb32f5f4256d685e46a78f4aa3c7a3d",
     "/Platea/icons/icon-96x96.png": "d84da239402a5d332a59aae20ba2a45b0c79e41c",
     "/Platea/img1.jpg": "6f801197487cab5f515d7fb2d1cc280a0d98bb5f",
-    "/Platea/index.html": "31a37cfcef71169a1957121205bf01e25a23055b",
+    "/Platea/index.html": "60383c0ad5ce8ceae4c44d896347b93b556f9f0a",
     "/Platea/logo_promethea_dark.webp": "3ef99a75127c9000bb5c3b34ed825d855f7bee63",
     "/Platea/logo_promethea_light.webp": "14352d9ee933afa6e5f286e71900cdc3796f4c32",
     "/Platea/logoristoapp.png": "0546f2d0b1f39f10a2f2ef4c325b2b5230b523a5",
-    "/Platea/main-KJMUJIQP.js": "7fa397c14ebc1338d564df54ee2bf3f49c9daa7e",
+    "/Platea/main-FSZBTO33.js": "4123e270324cd0422c8d3371b690d0c63b3d19e0",
     "/Platea/manifest.webmanifest": "e3fc849971dfd40eca0093e1f0f722c560cc0a44",
     "/Platea/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
     "/Platea/styles-Z6SZAAL2.css": "1ce73d01cc987848deac15cf49cd8c668d76adf4"

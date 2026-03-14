@@ -1,1 +1,0 @@
-import{Eb as s,Fb as i,Yb as o,gb as t}from"./chunk-42XOX64B.js";import"./chunk-MG3ERZGY.js";var n=class r{static \u0275fac=function(e){return new(e||r)};static \u0275cmp=t({type:r,selectors:[["app-live-orders"]],decls:2,vars:0,template:function(e,l){e&1&&(s(0,"p"),o(1,"live-orders works!"),i())},encapsulation:2})};export{n as LiveOrders};
